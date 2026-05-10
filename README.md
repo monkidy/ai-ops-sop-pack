@@ -1,12 +1,12 @@
 # AI Ops SOP Pack
 
-"AI Ops SOP Pack" by Hichem Benali, licensed under [CC BY 4.0](./LICENSE).
+"AI Ops SOP Pack" by Hichem Benali, licensed under [CC BY 4.0](./LICENSE). Source: https://github.com/monkidy/ai-ops-sop-pack.
 
-> **Status: DRAFT — human review passed; public publication not yet authorized**
+> **Status: V0 — public GitHub publication; no packaged release or PDF yet**
 >
-> Human review has passed. The pack remains DRAFT because public publication, tag/release creation, and optional PDF packaging have not yet been authorized by the maintainer.
+> Human review has passed. This repository is now public as the canonical GitHub publication of AI Ops SOP Pack v0.
 >
-> This private repository is a pre-publication dry run. Do not treat it as a public release until the maintainer explicitly authorizes publication.
+> No PDF, packaged release, sale channel, or external announcement has been opened yet.
 
 ## What this pack is
 
@@ -44,15 +44,17 @@ The "Trace de cycle ACE" appendix at the end of files 01 and 02 documents the pr
 
 ## Status
 
-- **Version** : V0 (DRAFT)
+- **Version** : V0
 - **Human review** : PASS
-- **Publication** : NOT_PUBLISHED
-- **Public visibility** : NOT_AUTHORIZED
+- **Publication** : PUBLIC_GITHUB_REPOSITORY
+- **Public visibility** : PUBLIC
 - **PDF** : NOT_GENERATED
-- **Tag / release** : NOT_CREATED
-- **Latest mission** : 5c.3.l README status alignment after human review pass
-- **Review markers** : 0 remaining (`<<<REVIEW_HICHEM_5c3b>>>` count is zero across `content/*.md`; verified by `scripts/sop_pack_content_integrity_check.py --max-review 0`)
-- **License** : CC BY 4.0 per `EXTRACT_SOP_PACK_SCOPE.md` §5. The official CC BY 4.0 legal text has been bundled into `LICENSE` (mission 5c.3.h — fetched verbatim from `creativecommons.org/licenses/by/4.0/legalcode.txt`). No placeholder remains.
+- **Tag** : v0.0.0
+- **GitHub Release** : NOT_CREATED
+- **Sale** : NOT_OPENED
+- **Latest mission** : 5c.3.m public GitHub publication, no PDF, no announcement
+- **Review markers** : 0 remaining (`<<<REVIEW_HICHEM_5c3b>>>` count is zero across `content/*.md`; verified by the integrity checker `scripts/sop_pack_content_integrity_check.py --max-review 0` on the source repository)
+- **License** : CC BY 4.0. The official CC BY 4.0 legal text is bundled in `LICENSE` (fetched verbatim from `creativecommons.org/licenses/by/4.0/legalcode.txt`). No placeholder remains.
 - **Source mapping** : present at `source_pr_references.md` (per-file PR-to-source mapping for traceability).
 
 ## What this pack is not
@@ -65,20 +67,21 @@ The "Trace de cycle ACE" appendix at the end of files 01 and 02 documents the pr
 
 The pack carries no warranty of any kind. Procedures are described for operational reference; any adoption is at the reader's responsibility.
 
-## License and DRAFT notice
+## License and attribution
 
-The official CC BY 4.0 legal text is bundled in `LICENSE` as of mission 5c.3.h. The attribution for redistribution is:
+The official CC BY 4.0 legal text is bundled in `LICENSE`. The attribution for redistribution is:
 
-> "AI Ops SOP Pack" by Hichem Benali, licensed under CC BY 4.0. Source: \<URL of the publication repository, to be fixed at publication time\>.
+> "AI Ops SOP Pack" by Hichem Benali, licensed under CC BY 4.0. Source: https://github.com/monkidy/ai-ops-sop-pack.
 
-The pack remains **DRAFT** because public publication has not yet been authorized by the maintainer. This repository is a private pre-publication dry run, ready for private pre-publication inspection only. Do not treat it as a finalized artifact, and do not redistribute it externally until the maintainer's publication decision is recorded.
+The pack is published in this public GitHub repository as its canonical source. No GitHub Release has been cut, no PDF has been compiled, and no commercial channel has been opened. The author has frozen any external announcement for a 14-day post-publication observation window.
 
-## Next steps before publication
+## Next steps
 
-1. ~~Bundle official CC BY 4.0 license text.~~ **DONE (5c.3.h)** — official text fetched verbatim from `creativecommons.org/licenses/by/4.0/legalcode.txt` and written to `LICENSE`.
-2. ~~Final human review pass.~~ **DONE** — human review status: PASS. The pack content is locked from a human-review standpoint.
-3. **PENDING** — maintainer publication decision: whether to keep the repository private indefinitely, switch to public visibility, push a `v0` tag, or create a release. Pending explicit public publication authorization from the maintainer.
-4. **OPTIONAL / PENDING** — PDF compilation. May be produced as part of the publication pass or deferred to a follow-up.
-5. **NOT AUTHORIZED YET** — public visibility, tag push, and release creation. None of these have been authorized at the time of this README.
+- ~~Human review pass.~~ **DONE** — human review status: PASS.
+- ~~Public GitHub repository.~~ **DONE** — this repository, public, tag `v0.0.0`.
+- ~~Tag `v0.0.0`.~~ **DONE** — pushed to this repository.
+- **NOT CREATED** — GitHub Release. Reserved for a later pass; not authorized in this publication step.
+- **OPTIONAL / NOT GENERATED** — PDF compilation. May be added later as a release asset or in a dedicated follow-up; intentionally not produced in this pass.
+- **FROZEN for 14 days after publication** — external announcement (LinkedIn, X, Reddit, Show HN, personal channels). The author will observe passively before any communication step.
 
-This DRAFT is private pre-publication inspection material. The next gate that flips any of items 3–5 requires an explicit mandate from the maintainer.
+This V0 publication is intentionally sober: a public canonical repository under CC BY 4.0, nothing more. Any release packaging, PDF distribution, sale channel, or announcement will be a separate, explicit pass.
