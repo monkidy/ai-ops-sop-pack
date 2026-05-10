@@ -2,13 +2,11 @@
 
 "AI Ops SOP Pack" by Hichem Benali, licensed under [CC BY 4.0](./LICENSE).
 
-> **Statut : DRAFT — pre-publication human review pending**
+> **Status: DRAFT — human review passed; public publication not yet authorized**
 >
-> All 11 review markers from prior consolidation passes have been resolved. The official CC BY 4.0 license text has been bundled in `LICENSE` (mission 5c.3.h). One step remains before the pack can be released externally:
+> Human review has passed. The pack remains DRAFT because public publication, tag/release creation, and optional PDF packaging have not yet been authorized by the maintainer.
 >
-> - a final human review pass (and optional PDF compilation) must confirm publication-readiness end-to-end
->
-> Until this step is complete, this pack is DRAFT. The LICENSE is now the official CC BY 4.0 text; the pack is not yet published.
+> This private repository is a pre-publication dry run. Do not treat it as a public release until the maintainer explicitly authorizes publication.
 
 ## What this pack is
 
@@ -47,11 +45,15 @@ The "Trace de cycle ACE" appendix at the end of files 01 and 02 documents the pr
 ## Status
 
 - **Version** : V0 (DRAFT)
-- **Latest mission** : 5c.3.h official CC BY 4.0 license text bundling
+- **Human review** : PASS
+- **Publication** : NOT_PUBLISHED
+- **Public visibility** : NOT_AUTHORIZED
+- **PDF** : NOT_GENERATED
+- **Tag / release** : NOT_CREATED
+- **Latest mission** : 5c.3.l README status alignment after human review pass
 - **Review markers** : 0 remaining (`<<<REVIEW_HICHEM_5c3b>>>` count is zero across `content/*.md`; verified by `scripts/sop_pack_content_integrity_check.py --max-review 0`)
 - **License** : CC BY 4.0 per `EXTRACT_SOP_PACK_SCOPE.md` §5. The official CC BY 4.0 legal text has been bundled into `LICENSE` (mission 5c.3.h — fetched verbatim from `creativecommons.org/licenses/by/4.0/legalcode.txt`). No placeholder remains.
 - **Source mapping** : present at `source_pr_references.md` (per-file PR-to-source mapping for traceability).
-- **PDF** : not produced in this pass. Optional follow-up depending on distribution channel.
 
 ## What this pack is not
 
@@ -65,16 +67,18 @@ The pack carries no warranty of any kind. Procedures are described for operation
 
 ## License and DRAFT notice
 
-The official CC BY 4.0 legal text is now bundled in `LICENSE` as of mission 5c.3.h. The attribution for redistribution is:
+The official CC BY 4.0 legal text is bundled in `LICENSE` as of mission 5c.3.h. The attribution for redistribution is:
 
 > "AI Ops SOP Pack" by Hichem Benali, licensed under CC BY 4.0. Source: \<URL of the publication repository, to be fixed at publication time\>.
 
-The pack remains **DRAFT** pending a final human review pass. Do not publish, sell, or redistribute as a finalized artifact until the maintainer's final review is complete.
+The pack remains **DRAFT** because public publication has not yet been authorized by the maintainer. This repository is a private pre-publication dry run, ready for private pre-publication inspection only. Do not treat it as a finalized artifact, and do not redistribute it externally until the maintainer's publication decision is recorded.
 
 ## Next steps before publication
 
 1. ~~Bundle official CC BY 4.0 license text.~~ **DONE (5c.3.h)** — official text fetched verbatim from `creativecommons.org/licenses/by/4.0/legalcode.txt` and written to `LICENSE`.
-2. A final human review pass confirms publication-readiness end-to-end (re-runs the integrity checker, validates the LICENSE text, validates `source_pr_references.md`, optionally produces a PDF compilation).
-3. The maintainer publishes the pack under the chosen distribution channel (per `EXTRACT_SOP_PACK_SCOPE.md` §6.2 options).
+2. ~~Final human review pass.~~ **DONE** — human review status: PASS. The pack content is locked from a human-review standpoint.
+3. **PENDING** — maintainer publication decision: whether to keep the repository private indefinitely, switch to public visibility, push a `v0` tag, or create a release. Pending explicit public publication authorization from the maintainer.
+4. **OPTIONAL / PENDING** — PDF compilation. May be produced as part of the publication pass or deferred to a follow-up.
+5. **NOT AUTHORIZED YET** — public visibility, tag push, and release creation. None of these have been authorized at the time of this README.
 
-This DRAFT is pending the final human review pass (step 2) before any publication.
+This DRAFT is private pre-publication inspection material. The next gate that flips any of items 3–5 requires an explicit mandate from the maintainer.
