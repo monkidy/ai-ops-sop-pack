@@ -6,7 +6,7 @@
 >
 > Human review has passed. This repository is now public as the canonical GitHub publication of AI Ops SOP Pack v0.
 >
-> GitHub Release v0.0.0 is published. No PDF, sale channel, or external announcement has been opened.
+> GitHub Release v0.0.0 is published. No PDF, sale channel, or external announcement has been opened. A controlled soft-visibility step may be reviewed after a 48–72h cooldown; no announcement is automatic.
 
 ## What this pack is
 
@@ -52,7 +52,7 @@ The "Trace de cycle ACE" appendix at the end of files 01 and 02 documents the pr
 - **Tag** : v0.0.0
 - **GitHub Release** : PUBLISHED — v0.0.0
 - **Sale** : NOT_OPENED
-- **Latest mission** : 5c.3.m public GitHub publication, no PDF, no announcement
+- **Latest mission** : v0.0.0 public GitHub release published; no PDF, no sale channel, no external announcement; soft-visibility review pending after cooldown.
 - **Review markers** : 0 remaining (`<<<REVIEW_HICHEM_5c3b>>>` count is zero across `content/*.md`; verified by the integrity checker `scripts/sop_pack_content_integrity_check.py --max-review 0` on the source repository)
 - **License** : CC BY 4.0. The official CC BY 4.0 legal text is bundled in `LICENSE` (fetched verbatim from `creativecommons.org/licenses/by/4.0/legalcode.txt`). No placeholder remains.
 - **Source mapping** : present at `source_pr_references.md` (per-file PR-to-source mapping for traceability).
@@ -73,7 +73,7 @@ The official CC BY 4.0 legal text is bundled in `LICENSE`. The attribution for r
 
 > "AI Ops SOP Pack" by Hichem Benali, licensed under CC BY 4.0. Source: https://github.com/monkidy/ai-ops-sop-pack.
 
-The pack is published in this public GitHub repository as its canonical source. GitHub Release v0.0.0 has been published. No PDF has been compiled, and no commercial channel has been opened. The author has frozen any external announcement for a 14-day post-publication observation window.
+The pack is published in this public GitHub repository as its canonical source. GitHub Release v0.0.0 has been published. No PDF has been compiled, and no commercial channel has been opened. External announcement is not automatic; a single controlled soft-visibility step may be reviewed after a 48–72h cooldown.
 
 ## Next steps
 
@@ -82,6 +82,6 @@ The pack is published in this public GitHub repository as its canonical source. 
 - ~~Tag `v0.0.0`.~~ **DONE** — pushed to this repository.
 - ~~GitHub Release.~~ **DONE** — GitHub Release v0.0.0 published.
 - **OPTIONAL / NOT GENERATED** — PDF compilation. May be added later as a release asset or in a dedicated follow-up; intentionally not produced in this pass.
-- **FROZEN for 14 days after publication** — external announcement (LinkedIn, X, Reddit, Show HN, personal channels). The author will observe passively before any communication step.
+- **COOLDOWN / REVIEW PENDING** — external visibility (LinkedIn, X, Reddit, Show HN, personal channels) is not automatic. After 48–72h, the author may choose one controlled soft-visibility step, extend observation, or keep the publication passive.
 
-This V0 publication is intentionally sober: a public canonical repository under CC BY 4.0, nothing more. Any release packaging, PDF distribution, sale channel, or announcement will be a separate, explicit pass.
+This V0 publication is intentionally sober: a public canonical repository under CC BY 4.0, nothing more. Any PDF distribution, sale channel, or broader announcement will be a separate, explicit pass.
