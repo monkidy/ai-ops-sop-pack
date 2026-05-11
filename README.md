@@ -2,11 +2,11 @@
 
 "AI Ops SOP Pack" by Hichem Benali, licensed under [CC BY 4.0](./LICENSE). Source: https://github.com/monkidy/ai-ops-sop-pack.
 
-> **Status: V0 — public GitHub publication; no packaged release or PDF yet**
+> **Status: V0 — public GitHub publication; GitHub Release v0.0.0 published**
 >
 > Human review has passed. This repository is now public as the canonical GitHub publication of AI Ops SOP Pack v0.
 >
-> No PDF, packaged release, sale channel, or external announcement has been opened yet.
+> GitHub Release v0.0.0 is published. No PDF, sale channel, or external announcement has been opened.
 
 ## What this pack is
 
@@ -50,7 +50,7 @@ The "Trace de cycle ACE" appendix at the end of files 01 and 02 documents the pr
 - **Public visibility** : PUBLIC
 - **PDF** : NOT_GENERATED
 - **Tag** : v0.0.0
-- **GitHub Release** : NOT_CREATED
+- **GitHub Release** : PUBLISHED — v0.0.0
 - **Sale** : NOT_OPENED
 - **Latest mission** : 5c.3.m public GitHub publication, no PDF, no announcement
 - **Review markers** : 0 remaining (`<<<REVIEW_HICHEM_5c3b>>>` count is zero across `content/*.md`; verified by the integrity checker `scripts/sop_pack_content_integrity_check.py --max-review 0` on the source repository)
@@ -73,14 +73,14 @@ The official CC BY 4.0 legal text is bundled in `LICENSE`. The attribution for r
 
 > "AI Ops SOP Pack" by Hichem Benali, licensed under CC BY 4.0. Source: https://github.com/monkidy/ai-ops-sop-pack.
 
-The pack is published in this public GitHub repository as its canonical source. No GitHub Release has been cut, no PDF has been compiled, and no commercial channel has been opened. The author has frozen any external announcement for a 14-day post-publication observation window.
+The pack is published in this public GitHub repository as its canonical source. GitHub Release v0.0.0 has been published. No PDF has been compiled, and no commercial channel has been opened. The author has frozen any external announcement for a 14-day post-publication observation window.
 
 ## Next steps
 
 - ~~Human review pass.~~ **DONE** — human review status: PASS.
 - ~~Public GitHub repository.~~ **DONE** — this repository, public, tag `v0.0.0`.
 - ~~Tag `v0.0.0`.~~ **DONE** — pushed to this repository.
-- **NOT CREATED** — GitHub Release. Reserved for a later pass; not authorized in this publication step.
+- ~~GitHub Release.~~ **DONE** — GitHub Release v0.0.0 published.
 - **OPTIONAL / NOT GENERATED** — PDF compilation. May be added later as a release asset or in a dedicated follow-up; intentionally not produced in this pass.
 - **FROZEN for 14 days after publication** — external announcement (LinkedIn, X, Reddit, Show HN, personal channels). The author will observe passively before any communication step.
 
