@@ -6,7 +6,7 @@ This changelog tracks documentation-pack changes only. It does not imply runtime
 
 ## v0.1.1 — Documentation visibility and status alignment
 
-Status: pending public GitHub documentation release.
+Status: published public GitHub documentation release.
 
 ### Changed
 
