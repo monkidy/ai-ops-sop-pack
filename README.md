@@ -38,9 +38,24 @@ The pack lives in `content/`. See `content/_INDEX.md` for the consolidated audit
 | `content/04_agent_handoff_format.md` | Agent Handoff Format v0 — minimum handoff structure + allowed decision values |
 | `content/05_operator_guide.md` | Operator Guide — Avatar Text-Only Stack v0 — local non-live operator path for text-only avatar |
 
+## Templates
+
+Copyable templates live in `templates/`:
+
+| File | Purpose |
+|------|---------|
+| `templates/agent_handoff_template.md` | Blank handoff structure for bounded operator / agent transfer |
+| `templates/pr_final_audit_checklist.md` | Blank checklist for final PR audit and head-guard review |
+| `templates/oom_recovery_checklist.md` | Blank checklist for cold recovery after OOM / editor crash |
+| `templates/cold_start_checklist.md` | Blank checklist for local workstation cold start |
+
+Templates are documentation aids only. They do not grant approval, merge authority, runtime authority, or permission-to-act.
+
 ## How to use
 
 Each file is self-contained Markdown. Read `START_HERE.md` first, then read the consolidated SOPs and adapt the procedures to your environment. Keep the boundaries that the SOPs declare (no live, no provider, no runtime authority): they are part of the design discipline, not optional extras.
+
+For operational use, read the relevant SOP first, then copy the corresponding blank template from `templates/` and fill it with observed evidence from your own environment.
 
 The "Trace de cycle ACE" appendix at the end of files 01 and 02 documents the production method (add → review → closeout → arbitration). It is informational and helps readers see how the SOP was hardened, not a procedure to imitate verbatim.
 
