@@ -56,11 +56,12 @@ Read in this order:
 3. `content/04_agent_handoff_format.md` — most portable file; read first if you want a reusable handoff structure.
 4. `content/02_pr_final_audit_head_guard_sop.md` — PR merge discipline and head-guard procedure.
 5. `content/01_oom_recovery_sop.md` — cold recovery after crash during a PR / merge gate.
-6. `content/03_cold_start_operator_runbook.md` — local workstation cold-start example; ASSO-derived and environment-specific.
-7. `content/05_operator_guide.md` — local text-only avatar operator case study; strongly ASSO-derived and not generic.
-8. `templates/` — blank copyable templates for handoff, PR audit, OOM recovery, and cold start.
-9. `source_pr_references.md` — provenance mapping to source PRs.
-10. `content/_INDEX.md` — consolidation audit index and historical release-work notes.
+6. `templates/` — blank copyable templates for handoff, PR audit, OOM recovery, and cold start.
+7. `examples/pr_crash_recovery_filled_example.md` — fictitious non-live example combining recovery, audit, and handoff.
+8. `content/03_cold_start_operator_runbook.md` — local workstation cold-start example; ASSO-derived and environment-specific.
+9. `content/05_operator_guide.md` — local text-only avatar operator case study; strongly ASSO-derived and not generic.
+10. `source_pr_references.md` — provenance mapping to source PRs.
+11. `content/_INDEX.md` — consolidation audit index and historical release-work notes.
 
 ## Generic vs ASSO-derived files
 
@@ -73,6 +74,7 @@ Read in this order:
 - `templates/pr_final_audit_checklist.md`
 - `templates/oom_recovery_checklist.md`
 - `templates/cold_start_checklist.md`
+- `examples/pr_crash_recovery_filled_example.md`
 
 These can be adapted by other teams with moderate rewriting.
 
@@ -99,6 +101,8 @@ Replace environment-specific commands, paths, URLs, branch names, checkers, and 
 Do not remove stop conditions just to make a procedure look simpler.
 
 Use the blank templates only after reading the related SOP. A template is a capture surface for observed evidence, not a substitute for review.
+
+Use examples only to understand structure. Do not copy their PASS / readiness decisions unless your own observed evidence supports them.
 
 ## Decision vocabulary
 
@@ -150,6 +154,7 @@ If you are recovering from a crash during a PR / merge gate, read:
 
 - `content/01_oom_recovery_sop.md`
 - `templates/oom_recovery_checklist.md`
+- `examples/pr_crash_recovery_filled_example.md`
 
 If you need local cold-start structure, read:
 
