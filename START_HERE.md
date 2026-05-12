@@ -1,12 +1,12 @@
-# START_HERE — AI Ops SOP Pack v0
+# START_HERE — AI Ops SOP Pack v0.1
 
-This file is the external reading guide for AI Ops SOP Pack v0.
+This file is the external reading guide for AI Ops SOP Pack v0.1.
 
 Use it before reading the individual SOP files.
 
 ## What this repository is
 
-AI Ops SOP Pack v0 is a public documentation pack for bounded AI-agent operations.
+AI Ops SOP Pack v0.1 is a public documentation pack for bounded AI-agent operations.
 
 It provides small, auditable operating procedures for:
 
@@ -34,6 +34,16 @@ This repository is not:
 - a guarantee of correctness or safety in your environment
 
 Do not treat any SOP as operational authority. Each procedure must be adapted, reviewed, and approved inside the reader's own environment.
+
+## Use this when
+
+Use this pack when your team needs to reduce:
+
+- false readiness claims after AI-assisted work
+- weak PR handoffs
+- unsafe merge assumptions
+- context-loss recovery risk after editor or workstation crashes
+- confusion between evidence, review, approval, and permission-to-act
 
 ## Intended reader
 
@@ -132,7 +142,7 @@ Stop immediately if an adaptation introduces:
 
 ## Current publication status
 
-Current pack status: public V0 GitHub release.
+Current pack status: public V0.1 GitHub documentation release.
 
 The source closeout statuses preserved inside some SOPs are historical provenance. They do not override the current repository status and do not grant operational authority.
 
