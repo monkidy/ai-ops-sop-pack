@@ -61,6 +61,12 @@ Filled examples live in `examples/`:
 
 Examples are illustrative only. They do not prove production readiness and should not be copied without replacing all evidence with observations from your own environment.
 
+## Release notes
+
+See [`CHANGELOG.md`](./CHANGELOG.md) for public documentation-pack changes.
+
+Draft release notes for the v0.1.0 usability polish live in [`release_notes/v0.1.0.md`](./release_notes/v0.1.0.md).
+
 ## How to use
 
 Each file is self-contained Markdown. Read `START_HERE.md` first, then read the consolidated SOPs and adapt the procedures to your environment. Keep the boundaries that the SOPs declare (no live, no provider, no runtime authority): they are part of the design discipline, not optional extras.
