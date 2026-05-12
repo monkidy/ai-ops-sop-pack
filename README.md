@@ -2,11 +2,11 @@
 
 "AI Ops SOP Pack" by Hichem Benali, licensed under [CC BY 4.0](./LICENSE). Source: https://github.com/monkidy/ai-ops-sop-pack.
 
-> **Status: V0.1 — public GitHub documentation release; GitHub Release v0.1.0 published**
+> **Status: V0.1 — public GitHub documentation release; v0.1.1 alignment pending**
 >
 > Human review has passed. This repository is public as the canonical GitHub publication of AI Ops SOP Pack.
 >
-> GitHub Release v0.1.0 is published. No PDF, sale channel, runtime, provider integration, or external announcement has been opened.
+> GitHub Release v0.1.0 is published. v0.1.1 is prepared as a documentation visibility and status alignment release. No PDF, sale channel, runtime, provider integration, or external announcement has been opened.
 
 ## What this pack is
 
@@ -77,7 +77,7 @@ Examples are illustrative only. They do not prove production readiness and shoul
 
 See [`CHANGELOG.md`](./CHANGELOG.md) for public documentation-pack changes.
 
-Release notes for v0.1.0 live in [`release_notes/v0.1.0.md`](./release_notes/v0.1.0.md).
+Release notes for v0.1.0 live in [`release_notes/v0.1.0.md`](./release_notes/v0.1.0.md). Release notes for the pending v0.1.1 alignment pass live in [`release_notes/v0.1.1.md`](./release_notes/v0.1.1.md).
 
 ## How to use
 
@@ -96,10 +96,12 @@ The "Trace de cycle ACE" appendix at the end of files 01 and 02 documents the pr
 - **PDF** : NOT_GENERATED
 - **Latest tag** : v0.1.0
 - **Latest GitHub Release** : PUBLISHED — v0.1.0
+- **Next tag** : v0.1.1
+- **Next GitHub Release** : PENDING — v0.1.1 documentation visibility and status alignment
 - **Previous tag** : v0.0.0
 - **Previous GitHub Release** : PUBLISHED — v0.0.0
 - **Sale** : NOT_OPENED
-- **Latest mission** : v0.1.0 public GitHub documentation release published; no PDF, no sale channel, no runtime, no provider integration, no external announcement.
+- **Latest mission** : v0.1.1 documentation alignment prepared; no PDF, no sale channel, no runtime, no provider integration, no external announcement.
 - **Review markers** : 0 remaining (`<<<REVIEW_HICHEM_5c3b>>>` count is zero across `content/*.md`; verified by the integrity checker `scripts/sop_pack_content_integrity_check.py --max-review 0` on the source repository)
 - **License** : CC BY 4.0. The official CC BY 4.0 legal text is bundled in `LICENSE` (fetched verbatim from `creativecommons.org/licenses/by/4.0/legalcode.txt`). No placeholder remains.
 - **Source mapping** : present at `source_pr_references.md` (per-file PR-to-source mapping for traceability).
@@ -120,7 +122,7 @@ The official CC BY 4.0 legal text is bundled in `LICENSE`. The attribution for r
 
 > "AI Ops SOP Pack" by Hichem Benali, licensed under CC BY 4.0. Source: https://github.com/monkidy/ai-ops-sop-pack.
 
-The pack is published in this public GitHub repository as its canonical source. GitHub Releases v0.0.0 and v0.1.0 have been published. No PDF has been compiled, and no commercial channel has been opened. External announcement is not automatic and remains a separate explicit decision.
+The pack is published in this public GitHub repository as its canonical source. GitHub Releases v0.0.0 and v0.1.0 have been published. v0.1.1 is pending as a documentation alignment release. No PDF has been compiled, and no commercial channel has been opened. External announcement is not automatic and remains a separate explicit decision.
 
 ## Next steps
 
@@ -131,6 +133,7 @@ The pack is published in this public GitHub repository as its canonical source. 
 - ~~Usability polish.~~ **DONE** — START_HERE, templates, filled example, case-study guidance, changelog, and v0.1.0 release notes.
 - ~~Tag `v0.1.0`.~~ **DONE** — pushed to this repository.
 - ~~GitHub Release v0.1.0.~~ **DONE** — published.
+- **PENDING** — GitHub Release v0.1.1 for documentation visibility and status alignment.
 - **OPTIONAL / NOT GENERATED** — PDF compilation. May be added later as a release asset or in a dedicated follow-up; intentionally not produced in this pass.
 - **OBSERVATION ONLY** — external visibility is not automatic. Any announcement, distribution, or commercial use remains a separate explicit pass.
 
