@@ -58,8 +58,9 @@ Read in this order:
 5. `content/01_oom_recovery_sop.md` — cold recovery after crash during a PR / merge gate.
 6. `content/03_cold_start_operator_runbook.md` — local workstation cold-start example; ASSO-derived and environment-specific.
 7. `content/05_operator_guide.md` — local text-only avatar operator case study; strongly ASSO-derived and not generic.
-8. `source_pr_references.md` — provenance mapping to source PRs.
-9. `content/_INDEX.md` — consolidation audit index and historical release-work notes.
+8. `templates/` — blank copyable templates for handoff, PR audit, OOM recovery, and cold start.
+9. `source_pr_references.md` — provenance mapping to source PRs.
+10. `content/_INDEX.md` — consolidation audit index and historical release-work notes.
 
 ## Generic vs ASSO-derived files
 
@@ -68,6 +69,10 @@ Read in this order:
 - `content/04_agent_handoff_format.md`
 - `content/02_pr_final_audit_head_guard_sop.md`
 - `content/01_oom_recovery_sop.md`
+- `templates/agent_handoff_template.md`
+- `templates/pr_final_audit_checklist.md`
+- `templates/oom_recovery_checklist.md`
+- `templates/cold_start_checklist.md`
 
 These can be adapted by other teams with moderate rewriting.
 
@@ -92,6 +97,8 @@ When adapting a file, keep the conservative status discipline:
 Replace environment-specific commands, paths, URLs, branch names, checkers, and proof reports with equivalents from your own environment.
 
 Do not remove stop conditions just to make a procedure look simpler.
+
+Use the blank templates only after reading the related SOP. A template is a capture surface for observed evidence, not a substitute for review.
 
 ## Decision vocabulary
 
@@ -132,13 +139,21 @@ No PDF, sale channel, runtime, provider integration, or external announcement is
 If you only need one reusable artifact, start with:
 
 - `content/04_agent_handoff_format.md`
+- `templates/agent_handoff_template.md`
 
 If you need PR merge discipline, read:
 
 - `content/02_pr_final_audit_head_guard_sop.md`
+- `templates/pr_final_audit_checklist.md`
 
 If you are recovering from a crash during a PR / merge gate, read:
 
 - `content/01_oom_recovery_sop.md`
+- `templates/oom_recovery_checklist.md`
+
+If you need local cold-start structure, read:
+
+- `content/03_cold_start_operator_runbook.md`
+- `templates/cold_start_checklist.md`
 
 If you are evaluating the original ASSO-derived operating style, read the full pack in order.
