@@ -26,6 +26,8 @@ AI Ops / Platform / SRE teams running AI agents in production who need bounded o
 
 ## Pack contents
 
+Start with [`START_HERE.md`](./START_HERE.md) for the external reading guide, recommended reading order, portability notes, and adaptation boundaries.
+
 The pack lives in `content/`. See `content/_INDEX.md` for the consolidated audit index with per-file provenance, sizes, and review-tag history. See `source_pr_references.md` for the per-file PR-to-source mapping.
 
 | File | Purpose |
@@ -38,7 +40,7 @@ The pack lives in `content/`. See `content/_INDEX.md` for the consolidated audit
 
 ## How to use
 
-Each file is self-contained Markdown. Read the consolidated SOPs and adapt the procedures to your environment. Keep the boundaries that the SOPs declare (no live, no provider, no runtime authority): they are part of the design discipline, not optional extras.
+Each file is self-contained Markdown. Read `START_HERE.md` first, then read the consolidated SOPs and adapt the procedures to your environment. Keep the boundaries that the SOPs declare (no live, no provider, no runtime authority): they are part of the design discipline, not optional extras.
 
 The "Trace de cycle ACE" appendix at the end of files 01 and 02 documents the production method (add → review → closeout → arbitration). It is informational and helps readers see how the SOP was hardened, not a procedure to imitate verbatim.
 
