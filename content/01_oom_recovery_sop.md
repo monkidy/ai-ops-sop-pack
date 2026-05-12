@@ -12,6 +12,7 @@ P4_MICROFILTER_PASS: 5c.3 (possessif_exposant + ref_meta_interne)
 LICENSE: CC BY 4.0
 EXTERNAL_ALIGNMENT_PASS: 5c.3.b (1B + 2A + 3A + 4B applied)
 STATUS_ALIGNMENT_PASS: 5c.3.d (last REVIEW arbitrated + source/pack status separation)
+PUBLIC_V0_STATUS_ALIGNMENT_PASS: post-publication alignment; source status retained as provenance only
 -->
 # OOM Recovery SOP v0
 
@@ -23,7 +24,7 @@ STATUS_ALIGNMENT_PASS: 5c.3.d (last REVIEW arbitrated + source/pack status separ
 - source review reviewed: docs/capital_engine/documentation_operatoire_oom_recovery_sop_v0_review.md
 - scope: closeout only
 - source publication scope: non-public at source time
-- pack publication status: DRAFT pending PDF compilation and final review
+- current pack publication status: public V0 GitHub release (v0.0.0); source status retained for provenance only
 
 ## PR Merge Confirmations
 
@@ -99,11 +100,11 @@ Boundary closeout:
 - no watcher
 - intended for controlled operational use
 
-## Remaining Blockers
+## Historical Remaining Blockers At Source Closeout
 
-Remaining blockers:
+Historical blockers retained from source closeout:
 - aucun usage produit
-- aucune publication
+- aucune publication ouverte par le source closeout
 - aucune offre
 - aucun pricing
 - aucune prospection
@@ -131,7 +132,7 @@ Immediate stop if:
 
 ## Closeout Statement
 
-Status: SOP V0 draft, prepared for external review. External release pending final PDF compilation and review.
+Status: SOP V0 public pack artifact. Current distribution status: published in AI Ops SOP Pack v0.0.0 as documentation only. Source closeout status remains historical provenance; no product, offer, runtime, or permission-to-act is opened.
 
 ---
 
