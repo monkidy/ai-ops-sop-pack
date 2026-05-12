@@ -14,6 +14,18 @@ A consolidated, externally-readable bundle of Standard Operating Procedures (SOP
 
 The pack is a **documentation pack**, not a runtime, not a tool, not a service.
 
+## Use this when
+
+Use this pack when your team needs to reduce:
+
+- false readiness claims after AI-assisted work
+- weak PR handoffs
+- unsafe merge assumptions
+- context-loss recovery risk after editor or workstation crashes
+- confusion between evidence, review, approval, and permission-to-act
+
+If you only read one file first, read [`content/04_agent_handoff_format.md`](./content/04_agent_handoff_format.md).
+
 ## Intended audience
 
 AI Ops / Platform / SRE teams running AI agents in production who need bounded operating procedures for:
