@@ -4,6 +4,29 @@ All notable public documentation changes for AI Ops SOP Pack are recorded here.
 
 This changelog tracks documentation-pack changes only. It does not imply runtime capability, production readiness, commercial availability, or permission-to-act.
 
+## v0.1.1 — Documentation visibility and status alignment
+
+Status: pending public GitHub documentation release.
+
+### Changed
+
+- README now includes a positive `Use this when` section.
+- README now identifies `content/04_agent_handoff_format.md` as the best first file to read.
+- START_HERE wording is aligned with V0.1.
+- START_HERE now repeats the positive use-case framing.
+- Current publication wording is aligned with the live documentation release state.
+
+### Boundaries maintained
+
+- No runtime added.
+- No provider integration added.
+- No live execution path added.
+- No trading, order-routing, leverage, wallet, or portfolio authority added.
+- No product or commercial offer opened.
+- No PDF generated.
+- No external visibility or announcement opened.
+- No permission-to-act granted.
+
 ## v0.1.0 — Public usability polish
 
 Status: published public GitHub documentation release.
