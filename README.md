@@ -36,7 +36,7 @@ The pack lives in `content/`. See `content/_INDEX.md` for the consolidated audit
 | `content/02_pr_final_audit_head_guard_sop.md` | PR Final Audit + Head Guard SOP v0 — bounded merge procedure with head-guard discipline |
 | `content/03_cold_start_operator_runbook.md` | Cold-Start Operator Runbook v0 — workstation product index + entry points |
 | `content/04_agent_handoff_format.md` | Agent Handoff Format v0 — minimum handoff structure + allowed decision values |
-| `content/05_operator_guide.md` | Operator Guide — Avatar Text-Only Stack v0 — local non-live operator path for text-only avatar |
+| `content/05_operator_guide.md` | Operator Guide — Avatar Text-Only Stack v0 — ASSO-derived local text-only case study, not a generic drop-in SOP |
 
 ## Templates
 
@@ -51,11 +51,21 @@ Copyable templates live in `templates/`:
 
 Templates are documentation aids only. They do not grant approval, merge authority, runtime authority, or permission-to-act.
 
+## Examples
+
+Filled examples live in `examples/`:
+
+| File | Purpose |
+|------|---------|
+| `examples/pr_crash_recovery_filled_example.md` | Fictitious non-live walkthrough combining OOM recovery, PR final audit, and agent handoff |
+
+Examples are illustrative only. They do not prove production readiness and should not be copied without replacing all evidence with observations from your own environment.
+
 ## How to use
 
 Each file is self-contained Markdown. Read `START_HERE.md` first, then read the consolidated SOPs and adapt the procedures to your environment. Keep the boundaries that the SOPs declare (no live, no provider, no runtime authority): they are part of the design discipline, not optional extras.
 
-For operational use, read the relevant SOP first, then copy the corresponding blank template from `templates/` and fill it with observed evidence from your own environment.
+For operational use, read the relevant SOP first, then copy the corresponding blank template from `templates/` and fill it with observed evidence from your own environment. Use `examples/` only to understand how the pieces can fit together; do not treat examples as authority.
 
 The "Trace de cycle ACE" appendix at the end of files 01 and 02 documents the production method (add → review → closeout → arbitration). It is informational and helps readers see how the SOP was hardened, not a procedure to imitate verbatim.
 
