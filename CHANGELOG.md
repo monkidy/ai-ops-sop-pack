@@ -6,7 +6,7 @@ This changelog tracks documentation-pack changes only. It does not imply runtime
 
 ## v0.1.0 — Public usability polish
 
-Status: planned release notes for the public documentation pack after V0 publication.
+Status: published public GitHub documentation release.
 
 ### Added
 
@@ -24,7 +24,7 @@ Status: planned release notes for the public documentation pack after V0 publica
 - README now lists filled examples.
 - README clarifies `content/05_operator_guide.md` as an ASSO-derived local text-only case study, not a generic drop-in SOP.
 - `START_HERE.md` now separates portable files, ASSO-derived files, templates, and examples.
-- Residual source/DRAFT wording in public SOPs was aligned with the current public V0 repository status while retaining source closeout status as historical provenance.
+- Residual source/DRAFT wording in public SOPs was aligned with the current public repository status while retaining source closeout status as historical provenance.
 
 ### Boundaries maintained
 
