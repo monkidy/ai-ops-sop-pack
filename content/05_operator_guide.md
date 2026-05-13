@@ -15,6 +15,11 @@ SOURCE_FILES: 05a_avatar_finish__src.md + 05b_avatar_operator_guide__src.md + 05
 -->
 # Operator Guide — Avatar Text-Only Stack v0
 
+> Case study only.
+> This file is ASSO-derived and environment-specific.
+> It is provided for reference, not for direct local adoption without heavy adaptation and review.
+> It does not define a generic runtime, provider integration, production path, or permission-to-act.
+
 ## 1. Usage
 
 # ASSO Avatar Text-Only v0 Usage

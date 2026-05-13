@@ -6,11 +6,11 @@ Use it before reading the individual SOP files.
 
 ## What this repository is
 
-AI Ops SOP Pack v0.1 is a public documentation pack for bounded AI-agent operations.
+AI Ops SOP Pack v0.1 is a public documentation pack for bounded AI-assisted engineering operations.
 
 It provides small, auditable operating procedures for:
 
-- recovering from a workstation or editor crash during a PR / merge gate
+- human-led cold recovery after editor or workstation crashes during PR / merge review
 - performing a final PR audit with strict head-guard discipline
 - restarting a local operator workstation after a cold start
 - handing work from one agent or operator to another without overclaiming readiness
@@ -53,7 +53,7 @@ This pack is mainly for:
 - platform teams
 - SRE / reliability teams
 - engineering operators working with AI-assisted pull requests
-- teams that need conservative handoff and review discipline around agents
+- teams that need conservative handoff and review discipline around agents or AI-assisted work
 
 The reader should already understand Git, pull requests, local validation, review gates, and operational boundaries.
 
@@ -65,7 +65,7 @@ Read in this order:
 2. `START_HERE.md` — this guide.
 3. `content/04_agent_handoff_format.md` — most portable file; read first if you want a reusable handoff structure.
 4. `content/02_pr_final_audit_head_guard_sop.md` — PR merge discipline and head-guard procedure.
-5. `content/01_oom_recovery_sop.md` — cold recovery after crash during a PR / merge gate.
+5. `content/01_oom_recovery_sop.md` — human-led cold recovery after crash during a PR / merge gate.
 6. `templates/` — blank copyable templates for handoff, PR audit, OOM recovery, and cold start.
 7. `examples/pr_crash_recovery_filled_example.md` — fictitious non-live example combining recovery, audit, and handoff.
 8. `content/03_cold_start_operator_runbook.md` — local workstation cold-start example; ASSO-derived and environment-specific.

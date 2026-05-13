@@ -2,7 +2,7 @@
 
 Use this checklist before marking a pull request as ready for merge or before performing a bounded merge procedure.
 
-This checklist does not grant merge authority by itself.
+Completing this checklist records review evidence only. It does not approve or perform a merge, and it does not grant merge authority by itself.
 
 ## PR Metadata
 
