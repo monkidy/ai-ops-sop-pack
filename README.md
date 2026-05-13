@@ -10,7 +10,7 @@
 
 ## What this pack is
 
-A consolidated, externally-readable bundle of Standard Operating Procedures (SOPs) for teams that operate AI agents in production: incident response, PR audit discipline, cold-start procedures, agent handoff format, and operator guides.
+A consolidated, externally-readable bundle of Standard Operating Procedures (SOPs) for teams documenting and reviewing AI-assisted engineering work: PR audit discipline, cold recovery procedures, agent handoff format, and operator guides.
 
 The pack is a **documentation pack**, not a runtime, not a tool, not a service.
 
@@ -28,13 +28,13 @@ If you only read one file first, read [`content/04_agent_handoff_format.md`](./c
 
 ## Intended audience
 
-AI Ops / Platform / SRE teams running AI agents in production who need bounded operating procedures for:
+AI Ops / Platform / SRE / engineering teams documenting or reviewing AI-assisted engineering work who need bounded operating procedures for:
 
-- recovering from out-of-memory crashes during a PR / merge gate
+- human-led cold recovery after editor or workstation crashes during PR / merge review
 - auditing pull requests with strict head-guard discipline before merge
 - bringing a workstation back online after cold start without re-engaging long contexts
-- exchanging bounded handoffs between agents under explicit decision values
-- running text-only avatar smoke tests locally without any live runtime
+- exchanging bounded handoffs between agents or operators under explicit decision values
+- reviewing local text-only operator paths without any live runtime
 
 ## Pack contents
 
@@ -44,8 +44,8 @@ The pack lives in `content/`. See `content/_INDEX.md` for the consolidated audit
 
 | File | Purpose |
 |------|---------|
-| `content/01_oom_recovery_sop.md` | OOM Recovery SOP v0 — cold reprise procedure after OOM during a PR/merge gate |
-| `content/02_pr_final_audit_head_guard_sop.md` | PR Final Audit + Head Guard SOP v0 — bounded merge procedure with head-guard discipline |
+| `content/01_oom_recovery_sop.md` | OOM Recovery SOP v0 — human-led cold recovery after OOM during a PR/merge gate |
+| `content/02_pr_final_audit_head_guard_sop.md` | PR Final Audit + Head Guard SOP v0 — bounded merge review procedure with head-guard discipline |
 | `content/03_cold_start_operator_runbook.md` | Cold-Start Operator Runbook v0 — workstation product index + entry points |
 | `content/04_agent_handoff_format.md` | Agent Handoff Format v0 — minimum handoff structure + allowed decision values |
 | `content/05_operator_guide.md` | Operator Guide — Avatar Text-Only Stack v0 — ASSO-derived local text-only case study, not a generic drop-in SOP |
