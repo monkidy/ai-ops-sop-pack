@@ -2,7 +2,7 @@
 
 Use this checklist after an out-of-memory crash, editor crash, or local workstation interruption during a PR / merge gate.
 
-The goal is cold recovery with minimal context reload and no uncontrolled action.
+The goal is human-led cold recovery with minimal context reload and no uncontrolled action.
 
 ## Incident Metadata
 
@@ -44,6 +44,16 @@ Run short, bounded checks only.
 - worktree status:
 - remote fetched:
 - local branch aligned with remote:
+
+## Observable Context Realignment
+
+Confirm only with observable evidence. Do not infer hidden agent memory alignment.
+
+- resumed workspace matches pre-crash evidence:
+- resumed PR state matches pre-crash evidence:
+- resumed branch and HEAD match pre-crash evidence:
+- resumed notes / handoff context match pre-crash evidence:
+- uncertainty or missing evidence recorded:
 
 ## Recovery Action
 
@@ -87,6 +97,7 @@ Stop if:
 - GitHub / PR state cannot be verified
 - local repository state diverges unexpectedly
 - worktree contains unexplained changes
+- resumed workspace / PR / branch / HEAD / notes cannot be matched to pre-crash evidence
 - a live runtime, provider, secret, daemon, watcher, wallet, trading, or order-routing request appears
 - the recovery would require destructive action without explicit review
 
