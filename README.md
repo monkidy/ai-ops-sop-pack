@@ -135,5 +135,3 @@ Le pack est publié dans ce dépôt GitHub public comme source canonique. Les Gi
 - ~~GitHub Release v0.1.0.~~ **FAIT** — publié.
 - ~~Tag `v0.1.1`.~~ **FAIT** — poussé sur ce dépôt.
 - ~~GitHub Release v0.1.1.~~ **FAIT** — publié (release de visibilité documentation et alignement de statut).
-
----
