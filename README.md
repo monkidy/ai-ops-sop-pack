@@ -1,140 +1,139 @@
 # AI Ops SOP Pack
 
-"AI Ops SOP Pack" by Hichem Benali, licensed under [CC BY 4.0](./LICENSE). Source: https://github.com/monkidy/ai-ops-sop-pack.
+"AI Ops SOP Pack" par Hichem Benali, sous licence [CC BY 4.0](./LICENSE). Source : https://github.com/monkidy/ai-ops-sop-pack.
 
-> **Status: V0.1 — public GitHub documentation release; GitHub Release v0.1.1 published**
+> **Statut : V0.1 — publication documentation GitHub public ; GitHub Release v0.1.1 publié**
 >
-> Human review has passed. This repository is public as the canonical GitHub publication of AI Ops SOP Pack.
+> La review humaine est passée. Ce dépôt est public comme publication canonique GitHub de AI Ops SOP Pack.
 >
-> GitHub Release v0.1.1 is published as a documentation visibility and status alignment release. No PDF, sale channel, runtime, provider integration, or external announcement has been opened.
+> Le GitHub Release v0.1.1 est publié comme release de visibilité documentation et alignement de statut. Aucun PDF, canal de vente, runtime, intégration provider ou annonce externe n'a été ouvert.
 
-## What this pack is
+## Ce que contient ce pack
 
-A consolidated, externally-readable bundle of Standard Operating Procedures (SOPs) for teams documenting and reviewing AI-assisted engineering work: PR audit discipline, cold recovery procedures, agent handoff format, and operator guides.
+Un bundle consolidé et lisible de Standard Operating Procedures (SOPs) pour les équipes documentant et reviewant le travail d'ingénierie assisté par IA : discipline d'audit PR, procédures de cold recovery, format de handoff agent, et guides opérateur.
 
-The pack is a **documentation pack**, not a runtime, not a tool, not a service.
+Le pack est un **pack de documentation**, pas un runtime, pas un outil, pas un service.
 
-## Use this when
+## Quand l'utiliser
 
-Use this pack when your team needs to reduce:
+Utilise ce pack quand ton équipe a besoin de réduire :
 
-- false readiness claims after AI-assisted work
-- weak PR handoffs
-- unsafe merge assumptions
-- context-loss recovery risk after editor or workstation crashes
-- confusion between evidence, review, approval, and permission-to-act
+- les fausses déclarations de readiness après travail assisté par IA
+- les handoffs PR faibles
+- les hypothèses de merge non sécurisées
+- le risque de perte de contexte après crash éditeur ou workstation
+- la confusion entre évidence, review, approval et permission-to-act
 
-If you only read one file first, read [`content/04_agent_handoff_format.md`](./content/04_agent_handoff_format.md).
+Si tu ne lis qu'un fichier en premier, lis [`content/04_agent_handoff_format.md`](./content/04_agent_handoff_format.md).
 
-## Intended audience
+## Public visé
 
-AI Ops / Platform / SRE / engineering teams documenting or reviewing AI-assisted engineering work who need bounded operating procedures for:
+Équipes AI Ops / Platform / SRE / ingénierie documentant ou reviewant du travail d'ingénierie assisté par IA et ayant besoin de procédures opératoires bornées pour :
 
-- human-led cold recovery after editor or workstation crashes during PR / merge review
-- auditing pull requests with strict head-guard discipline before merge
-- bringing a workstation back online after cold start without re-engaging long contexts
-- exchanging bounded handoffs between agents or operators under explicit decision values
-- reviewing local text-only operator paths without any live runtime
+- cold recovery humain-led après crash éditeur ou workstation pendant review PR / merge
+- audit de pull requests avec head-guard discipline stricte avant merge
+- remise en ligne d'une workstation après cold start sans ré-engager de longs contextes
+- échanges de handoffs bornés entre agents ou opérateurs sous explicit decision values
+- review de chemins opérateur local text-only sans aucun runtime live
 
-## Pack contents
+## Contenu du pack
 
-Start with [`START_HERE.md`](./START_HERE.md) for the external reading guide, recommended reading order, portability notes, and adaptation boundaries.
+Commence par [`START_HERE.md`](./START_HERE.md) pour le guide de lecture externe, l'ordre de lecture recommandé, les notes de portabilité et les limites d'adaptation.
 
-The pack lives in `content/`. See `content/_INDEX.md` for the consolidated audit index with per-file provenance, sizes, and review-tag history. See `source_pr_references.md` for the per-file PR-to-source mapping.
+Le pack vit dans `content/`. Voir `content/_INDEX.md` pour l'index d'audit consolidé avec provenance par fichier, tailles et historique des review-tags. Voir `source_pr_references.md` pour le mapping par fichier PR-to-source.
 
-| File | Purpose |
-|------|---------|
-| `content/01_oom_recovery_sop.md` | OOM Recovery SOP v0 — human-led cold recovery after OOM during a PR/merge gate |
-| `content/02_pr_final_audit_head_guard_sop.md` | PR Final Audit + Head Guard SOP v0 — bounded merge review procedure with head-guard discipline |
-| `content/03_cold_start_operator_runbook.md` | Cold-Start Operator Runbook v0 — workstation product index + entry points |
-| `content/04_agent_handoff_format.md` | Agent Handoff Format v0 — minimum handoff structure + allowed decision values |
-| `content/05_operator_guide.md` | Operator Guide — Avatar Text-Only Stack v0 — ASSO-derived local text-only case study, not a generic drop-in SOP |
+| Fichier | Objectif |
+|---------|----------|
+| `content/01_oom_recovery_sop.md` | SOP OOM Recovery v0 — cold recovery humain-led après OOM pendant un gate PR/merge |
+| `content/02_pr_final_audit_head_guard_sop.md` | SOP PR Final Audit + Head Guard v0 — procédure de review de merge bornée avec head-guard discipline |
+| `content/03_cold_start_operator_runbook.md` | Cold-Start Operator Runbook v0 — index produit workstation + points d'entrée |
+| `content/04_agent_handoff_format.md` | Agent Handoff Format v0 — structure minimale de handoff + allowed decision values |
+| `content/05_operator_guide.md` | Operator Guide — Avatar Text-Only Stack v0 — étude de cas local text-only dérivée d'ASSO, pas un SOP générique plug-in |
 
 ## Templates
 
-Copyable templates live in `templates/`:
+Les templates copiables vivent dans `templates/` :
 
-| File | Purpose |
-|------|---------|
-| `templates/agent_handoff_template.md` | Blank handoff structure for bounded operator / agent transfer |
-| `templates/pr_final_audit_checklist.md` | Blank checklist for final PR audit and head-guard review |
-| `templates/oom_recovery_checklist.md` | Blank checklist for cold recovery after OOM / editor crash |
-| `templates/cold_start_checklist.md` | Blank checklist for local workstation cold start |
+| Fichier | Objectif |
+|---------|----------|
+| `templates/agent_handoff_template.md` | Structure de handoff vierge pour transfert borné opérateur / agent |
+| `templates/pr_final_audit_checklist.md` | Checklist vierge pour audit final PR et review head-guard |
+| `templates/oom_recovery_checklist.md` | Checklist vierge pour cold recovery après OOM / crash éditeur |
+| `templates/cold_start_checklist.md` | Checklist vierge pour cold start local workstation |
 
-Templates are documentation aids only. They do not grant approval, merge authority, runtime authority, or permission-to-act.
+Les templates sont des aides à la documentation uniquement. Ils n'accordent pas d'approval, d'autorité de merge, d'autorité runtime ou de permission-to-act.
 
-## Examples
+## Exemples
 
-Filled examples live in `examples/`:
+Les exemples remplis vivent dans `examples/` :
 
-| File | Purpose |
-|------|---------|
-| `examples/pr_crash_recovery_filled_example.md` | Fictitious non-live walkthrough combining OOM recovery, PR final audit, and agent handoff |
+| Fichier | Objectif |
+|---------|----------|
+| `examples/pr_crash_recovery_filled_example.md` | Parcours fictif non-live combinant OOM recovery, PR final audit et agent handoff |
 
-Examples are illustrative only. They do not prove production readiness and should not be copied without replacing all evidence with observations from your own environment.
+Les exemples sont illustratifs uniquement. Ils ne prouvent pas de production readiness et ne doivent pas être copiés sans remplacer toutes les évidences par des observations de ton propre environnement.
 
 ## Release notes
 
-See [`CHANGELOG.md`](./CHANGELOG.md) for public documentation-pack changes.
+Voir [`CHANGELOG.md`](./CHANGELOG.md) pour les changements du pack de documentation public.
 
-Release notes for v0.1.1 live in [`release_notes/v0.1.1.md`](./release_notes/v0.1.1.md). Release notes for v0.1.0 remain available in [`release_notes/v0.1.0.md`](./release_notes/v0.1.0.md).
+Les release notes pour v0.1.1 vivent dans [`release_notes/v0.1.1.md`](./release_notes/v0.1.1.md). Les release notes pour v0.1.0 restent disponibles dans [`release_notes/v0.1.0.md`](./release_notes/v0.1.0.md).
 
-## How to use
+## Comment l'utiliser
 
-Each file is self-contained Markdown. Read `START_HERE.md` first, then read the consolidated SOPs and adapt the procedures to your environment. Keep the boundaries that the SOPs declare (no live, no provider, no runtime authority): they are part of the design discipline, not optional extras.
+Chaque fichier est du Markdown auto-contenu. Lis `START_HERE.md` en premier, puis lis les SOPs consolidées et adapte les procédures à ton environnement. Garde les limites que les SOPs déclarent (pas de live, pas de provider, pas d'autorité runtime) : elles font partie de la discipline de design, pas des extras optionnels.
 
-For operational use, read the relevant SOP first, then copy the corresponding blank template from `templates/` and fill it with observed evidence from your own environment. Use `examples/` only to understand how the pieces can fit together; do not treat examples as authority.
+Pour un usage opérationnel, lis la SOP pertinente en premier, puis copie le template vierge correspondant depuis `templates/` et remplis-le avec les évidences observées dans ton propre environnement. Utilise `examples/` uniquement pour comprendre comment les pièces peuvent s'assembler ; ne traite pas les exemples comme autorité.
 
-The "Trace de cycle ACE" appendix at the end of files 01 and 02 documents the production method (add → review → closeout → arbitration). It is informational and helps readers see how the SOP was hardened, not a procedure to imitate verbatim.
+L'appendice "Trace de cycle ACE" à la fin des fichiers 01 et 02 documente la méthode de production (add → review → closeout → arbitration). Il est informatif et aide les lecteurs à voir comment la SOP a été durcie, pas une procédure à imiter verbatim.
 
-## Status
+## Statut
 
 - **Version** : V0.1
-- **Human review** : PASS
+- **Review humaine** : PASS
 - **Publication** : PUBLIC_GITHUB_REPOSITORY
-- **Public visibility** : PUBLIC
+- **Visibilité publique** : PUBLIC
 - **PDF** : NOT_GENERATED
-- **Latest tag** : v0.1.1
-- **Latest GitHub Release** : PUBLISHED — v0.1.1
-- **Previous tag** : v0.1.0
-- **Previous GitHub Release** : PUBLISHED — v0.1.0
-- **Initial tag** : v0.0.0
-- **Initial GitHub Release** : PUBLISHED — v0.0.0
-- **Sale** : NOT_OPENED
-- **Latest mission** : v0.1.1 documentation visibility and status alignment release published; no PDF, no sale channel, no runtime, no provider integration, no external announcement.
-- **Review markers** : 0 remaining (`<<<REVIEW_HICHEM_5c3b>>>` count is zero across `content/*.md`; verified by the integrity checker `scripts/sop_pack_content_integrity_check.py --max-review 0` on the source repository)
-- **License** : CC BY 4.0. The official CC BY 4.0 legal text is bundled in `LICENSE` (fetched verbatim from `creativecommons.org/licenses/by/4.0/legalcode.txt`). No placeholder remains.
-- **Source mapping** : present at `source_pr_references.md` (per-file PR-to-source mapping for traceability).
+- **Dernier tag** : v0.1.1
+- **Dernier GitHub Release** : PUBLISHED — v0.1.1
+- **Tag précédent** : v0.1.0
+- **GitHub Release précédent** : PUBLISHED — v0.1.0
+- **Tag initial** : v0.0.0
+- **GitHub Release initial** : PUBLISHED — v0.0.0
+- **Vente** : NOT_OPENED
+- **Dernière mission** : v0.1.1 release de visibilité documentation et alignement de statut publiée ; pas de PDF, pas de canal de vente, pas de runtime, pas d'intégration provider, pas d'annonce externe.
+- **Review markers** : 0 restants (`<<<REVIEW_HICHEM_5c3b>>>` count is zero across `content/*.md` ; vérifié par le checker d'intégrité `scripts/sop_pack_content_integrity_check.py --max-review 0` sur le dépôt source)
+- **Licence** : CC BY 4.0. Le texte légal officiel CC BY 4.0 est bundlé dans `LICENSE` (récupéré verbatim depuis `creativecommons.org/licenses/by/4.0/legalcode.txt`). Aucun placeholder ne reste.
+- **Source mapping** : présent dans `source_pr_references.md` (mapping par fichier PR-to-source pour traçabilité).
 
-## What this pack is not
+## Ce que ce pack n'est pas
 
-- Not a product. Not an offer. Not a sales asset.
-- Not a runtime. Not a tool. Not a service.
-- Not production-ready. Not certified. Not warrantied.
-- Not a claim of operational authority over your environment.
-- Not a permission-to-act, permission-to-trade, or permission-to-publish on your behalf.
+- Pas un produit. Pas une offre. Pas un asset de vente.
+- Pas un runtime. Pas un outil. Pas un service.
+- Pas production-ready. Pas certifié. Pas warrantied.
+- Pas une claim d'autorité opérationnelle sur ton environnement.
+- Pas une permission-to-act, permission-to-trade, ou permission-to-publish en ton nom.
 
-The pack carries no warranty of any kind. Procedures are described for operational reference; any adoption is at the reader's responsibility.
+Le pack ne porte aucune garantie d'aucune sorte. Les procédures sont décrites pour référence opérationnelle ; toute adoption est à la responsabilité du lecteur.
 
-## License and attribution
+## Licence et attribution
 
-The official CC BY 4.0 legal text is bundled in `LICENSE`. The attribution for redistribution is:
+Le texte légal officiel CC BY 4.0 est bundlé dans `LICENSE`. L'attribution pour redistribution est :
 
-> "AI Ops SOP Pack" by Hichem Benali, licensed under CC BY 4.0. Source: https://github.com/monkidy/ai-ops-sop-pack.
+> "AI Ops SOP Pack" par Hichem Benali, sous licence CC BY 4.0. Source : https://github.com/monkidy/ai-ops-sop-pack.
 
-The pack is published in this public GitHub repository as its canonical source. GitHub Releases v0.0.0, v0.1.0, and v0.1.1 have been published. No PDF has been compiled, and no commercial channel has been opened. External announcement is not automatic and remains a separate explicit decision.
+Le pack est publié dans ce dépôt GitHub public comme source canonique. Les GitHub Releases v0.0.0, v0.1.0 et v0.1.1 ont été publiés. Aucun PDF n'a été compilé, et aucun canal commercial n'a été ouvert. L'annonce externe n'est pas automatique et reste une décision explicite séparée.
 
-## Next steps
+## Prochaines étapes
 
-- ~~Human review pass.~~ **DONE** — human review status: PASS.
-- ~~Public GitHub repository.~~ **DONE** — this repository, public.
-- ~~Tag `v0.0.0`.~~ **DONE** — pushed to this repository.
-- ~~GitHub Release v0.0.0.~~ **DONE** — published.
-- ~~Usability polish.~~ **DONE** — START_HERE, templates, filled example, case-study guidance, changelog, and v0.1.0 release notes.
-- ~~Tag `v0.1.0`.~~ **DONE** — pushed to this repository.
-- ~~GitHub Release v0.1.0.~~ **DONE** — published.
-- ~~GitHub Release v0.1.1.~~ **DONE** — documentation visibility and status alignment release published.
-- **OPTIONAL / NOT GENERATED** — PDF compilation. May be added later as a release asset or in a dedicated follow-up; intentionally not produced in this pass.
-- **OBSERVATION ONLY** — external visibility is not automatic. Any announcement, distribution, or commercial use remains a separate explicit pass.
+- ~~Human review pass.~~ **FAIT** — statut review humaine : PASS.
+- ~~Dépôt GitHub public.~~ **FAIT** — ce dépôt, public.
+- ~~Tag `v0.0.0`.~~ **FAIT** — poussé sur ce dépôt.
+- ~~GitHub Release v0.0.0.~~ **FAIT** — publié.
+- ~~Polish d'utilisabilité.~~ **FAIT** — START_HERE, templates, exemple rempli, guidance case-study, changelog et release notes v0.1.0.
+- ~~Tag `v0.1.0`.~~ **FAIT** — poussé sur ce dépôt.
+- ~~GitHub Release v0.1.0.~~ **FAIT** — publié.
+- ~~Tag `v0.1.1`.~~ **FAIT** — poussé sur ce dépôt.
+- ~~GitHub Release v0.1.1.~~ **FAIT** — publié (release de visibilité documentation et alignement de statut).
 
-This V0.1 publication is intentionally sober: a public canonical Markdown documentation repository under CC BY 4.0, nothing more. Any PDF distribution, sale channel, or broader announcement will be a separate, explicit pass.
+---
