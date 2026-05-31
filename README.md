@@ -116,6 +116,15 @@ The "Trace de cycle ACE" appendix at the end of files 01 and 02 documents the pr
 
 The pack carries no warranty of any kind. Procedures are described for operational reference; any adoption is at the reader's responsibility.
 
+## Related doctrine
+
+This pack is standalone documentation and does not depend on any runtime. For the
+public positioning of the ACE operating doctrine it shares principles with
+(closed by default, evidence first, human bounds, receipts over claims,
+fail-closed by default), see the [ACE Operating Doctrine](https://github.com/monkidy/asso-lab/blob/main/ACE-Operating-Doctrine.md)
+in the public `asso-lab` repository. That link is related reading only; it grants
+no authority and creates no dependency between the two repositories.
+
 ## License and attribution
 
 The official CC BY 4.0 legal text is bundled in `LICENSE`. The attribution for redistribution is:
