@@ -2,6 +2,8 @@
 
 "AI Ops SOP Pack" by Hichem Benali, licensed under [CC BY 4.0](./LICENSE). Source: https://github.com/monkidy/ai-ops-sop-pack.
 
+Part of the ACE / Asso fleet. Visual identity follows the [ACE Visual Charter V1](https://github.com/monkidy/asso-lab/blob/main/docs/brand/ACE_VISUAL_CHARTER_V1.md).
+
 > **Status: V0.1 — public GitHub documentation release; GitHub Release v0.1.1 published**
 >
 > Human review has passed. This repository is public as the canonical GitHub publication of AI Ops SOP Pack.
