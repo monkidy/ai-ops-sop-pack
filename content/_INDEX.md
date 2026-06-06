@@ -1,4 +1,4 @@
-# content/_INDEX.md
+# Content Index
 
 Index post-consolidation, mission 5c.3. Source : content_raw/ (mission 5c.2). 5 fichiers consolidés finaux.
 
@@ -25,11 +25,11 @@ Le mainteneur reviewera chaque balise `<<<REVIEW_HICHEM_P4>>>` posée (motifs `p
 
 ---
 
-## Patch 5c.3.b — Alignement externe CC BY 4.0
+## Patch 5c.3.b: Alignement externe CC BY 4.0
 
 Patch 5c.3.b appliqué : alignement CC BY 4.0 (1B), placeholder repo path (2A), neutralisation tokens internes (3A), H1 nettoyés (4B).
 
-### H1 finaux par fichier (premier H1 du body) — post-5c.3.c
+### H1 finaux par fichier (premier H1 du body): post-5c.3.c
 
 | Fichier | H1 final | Statut PHASE D |
 |---------|----------|----------------|
@@ -37,7 +37,7 @@ Patch 5c.3.b appliqué : alignement CC BY 4.0 (1B), placeholder repo path (2A), 
 | `02_pr_final_audit_head_guard_sop.md` | `# PR Final Audit And Head Guard SOP v0` | nettoyé en 5c.3.b |
 | `03_cold_start_operator_runbook.md` | `# Cold-Start Operator Runbook v0` | nettoyé en 5c.3.c (top H1 ajouté depuis frontmatter+scope ; ancien H1 `# ASSO Workstation Product Index` rétrogradé en H3, ancien H1 redondant `# ASSO Workstation Cold Start Operator Runbook v0` retiré) |
 | `04_agent_handoff_format.md` | `# Agent Handoff Format v0` | nettoyé en 5c.3.c (alignement H1↔frontmatter, BOM U+FEFF retiré) |
-| `05_operator_guide.md` | `# Operator Guide — Avatar Text-Only Stack v0` | conservé sans modification, déjà propre |
+| `05_operator_guide.md` | `# Operator Guide: Avatar Text-Only Stack v0` | conservé sans modification, déjà propre |
 
 ### Balises `<<<REVIEW_HICHEM_5c3b>>>` posées et résolues
 
@@ -85,7 +85,7 @@ Aucun fichier ne dépasse le seuil de -30 % de volumétrie (pas de sur-suppressi
 
 ---
 
-## Patch 5c.3.d — Status alignment + distribution files DRAFT
+## Patch 5c.3.d: Status alignment + distribution files DRAFT
 
 Patch 5c.3.d appliqué : arbitrage de la dernière balise REVIEW (option 3 Zone A : formulation naturelle historique), séparation source/pack des statuts dans file 01, création des fichiers de distribution `LICENSE` (placeholder de licence CC BY 4.0, remplacé en 5c.3.h) et `source_pr_references.md`, mise à jour du README pour réintégrer l'attribution CC BY 4.0 tout en conservant le statut DRAFT (PDF + revue finale non faits).
 
@@ -95,7 +95,7 @@ Patch 5c.3.d appliqué : arbitrage de la dernière balise REVIEW (option 3 Zone 
 |---|---|
 | `- status: <<<REVIEW>>>CLOSED_INTERNAL_PROOF_ONLY_OOM_RECOVERY_SOP_V0<<<END>>>` | `- source closeout status: closed as internal proof model candidate` |
 | `- publication scope: non-public` | `- source publication scope: non-public at source time`<br>+ `- pack publication status: DRAFT pending PDF compilation and final review` |
-| _strong external-release wording (pre-5c.3.d, replaced — see git history for literal text)_ | `Status: SOP V0 draft, prepared for external review. External release pending final PDF compilation and review.` |
+| _strong external-release wording (pre-5c.3.d, replaced: see git history for literal text)_ | `Status: SOP V0 draft, prepared for external review. External release pending final PDF compilation and review.` |
 
 L'objectif : distinguer **statut historique source** (état du SOP dans le repo source au moment du closeout d'origine, PR #83) du **statut courant pack** (état du SOP dans la livraison externe DRAFT). Aucun statut sur-déclaré.
 
@@ -121,24 +121,24 @@ Le pack reste DRAFT. Pour atteindre publication-readiness :
 
 ---
 
-## Patch 5c.3.e — Distribution structure dédiée
+## Patch 5c.3.e: Distribution structure dédiée
 
-Patch 5c.3.e appliqué : création de la structure `dist/ai-ops-sop-pack-v0/` (9 fichiers — copies octet-pour-octet des artefacts racine au commit 6bc4c59) ; checker dédié `scripts/sop_pack_dist_integrity_check.py` (8 invariants D1–D8) ; LICENSE officiel CC BY 4.0 reste un placeholder (`LICENSE_OFFICIAL_TEXT_BLOCKED` documenté — aucun fichier tracké du repo ne contient le texte officiel, fetch externe non autorisé). Aucun fichier racine ni `content_raw/` modifié.
+Patch 5c.3.e appliqué : création de la structure `dist/ai-ops-sop-pack-v0/` (9 fichiers, copies octet-pour-octet des artefacts racine au commit 6bc4c59) ; checker dédié `scripts/sop_pack_dist_integrity_check.py` (8 invariants D1-D8) ; LICENSE officiel CC BY 4.0 reste un placeholder (`LICENSE_OFFICIAL_TEXT_BLOCKED` documenté, aucun fichier tracké du repo ne contient le texte officiel, fetch externe non autorisé). Aucun fichier racine ni `content_raw/` modifié.
 
 Détail dans `docs/project_evidence/sop_pack_5c3e_release_structure_and_license_text_v0/release_structure_report.md`.
 
 ---
 
-## Patch 5c.3.f — Status claim repair + checker hardening
+## Patch 5c.3.f: Status claim repair + checker hardening
 
-Patch 5c.3.f appliqué : réparation d'un claim fort résiduel détecté par Zone A après 5c.3.e (file 02 racine + dist contenait encore une phrase de release explicite sous CC BY 4.0 — voir git diff `a835615..HEAD` pour le texte littéral remplacé), incompatible avec le placeholder de licence CC BY 4.0 alors en vigueur. Durcissement parallèle des deux checkers pour transformer le bug 5c.3.d/5c.3.e en garde automatisée.
+Patch 5c.3.f appliqué : réparation d'un claim fort résiduel détecté par Zone A après 5c.3.e (file 02 racine + dist contenait encore une phrase de release explicite sous CC BY 4.0, voir git diff `a835615..HEAD` pour le texte littéral remplacé), incompatible avec le placeholder de licence CC BY 4.0 alors en vigueur. Durcissement parallèle des deux checkers pour transformer le bug 5c.3.d/5c.3.e en garde automatisée.
 
 ### Réparation du claim fort
 
 Fichiers modifiés (claim → DRAFT-compatible) :
 - `content/02_pr_final_audit_head_guard_sop.md` : phrase de closeout réécrite vers le statut DRAFT explicite (mention LICENSE_PENDING + final review + optional PDF) et corridor « closes the corridor » → « records the source corridor »
 - `dist/ai-ops-sop-pack-v0/content/02_pr_final_audit_head_guard_sop.md` : même réécriture
-- `content/_INDEX.md` + `dist/ai-ops-sop-pack-v0/content/_INDEX.md` : références historiques en table « Avant 5c.3.d | Après 5c.3.d » obfusquées (la phrase littérale d'origine est remplacée par une description neutre « _strong external-release wording (pre-5c.3.d, replaced — see git history for literal text)_ ») pour ne pas re-déclencher le nouveau checker
+- `content/_INDEX.md` + `dist/ai-ops-sop-pack-v0/content/_INDEX.md` : références historiques en table « Avant 5c.3.d | Après 5c.3.d » obfusquées (la phrase littérale d'origine est remplacée par une description neutre « _strong external-release wording (pre-5c.3.d, replaced: see git history for literal text)_ ») pour ne pas re-déclencher le nouveau checker
 - `docs/project_evidence/sop_pack_5c3c_content_repair_and_5c4_scaffold_v0/review_resolution_report.md` : 2 références historiques également obfusquées + ajout d'une §10 documentant la pass
 
 ### Durcissement des checkers (C7 + D7)
@@ -147,8 +147,8 @@ Les deux checkers (`sop_pack_content_integrity_check.py` C7 et `sop_pack_dist_in
 
 1. **Élargir la scope** au-delà des seuls fichiers de distribution (était : README + LICENSE + source_pr_references.md uniquement). Inclut désormais les 5 SOPs + `_INDEX.md`.
 2. **Séparer deux classes de claims** :
-   - `ALWAYS_FORBIDDEN` — claims opérationnels jamais appropriés pour un pack documentaire borné (lists précises dans `scripts/sop_pack_content_integrity_check.py` et `scripts/sop_pack_dist_integrity_check.py`). Appliqués UNIQUEMENT aux fichiers de distribution. Tolérés dans les SOPs en contexte de négation (boundaries qui disent ce que le pack ne fait pas).
-   - `DRAFT_FORBIDDEN` — claims d'état de release (variantes de readiness sous CC BY 4.0, mentions de licence accordée, claims de commercial-readiness — listes précises dans les checkers). Appliqués à la SCOPE COMPLÈTE (5 SOPs + _INDEX.md + 3 distribution files) UNIQUEMENT tant que le placeholder de licence était présent dans `LICENSE`. Une fois la licence officielle bundlée (5c.3.h), cette liste cesse d'être enforcée.
+   - `ALWAYS_FORBIDDEN`: claims opérationnels jamais appropriés pour un pack documentaire borné (lists précises dans `scripts/sop_pack_content_integrity_check.py` et `scripts/sop_pack_dist_integrity_check.py`). Appliqués UNIQUEMENT aux fichiers de distribution. Tolérés dans les SOPs en contexte de négation (boundaries qui disent ce que le pack ne fait pas).
+   - `DRAFT_FORBIDDEN`: claims d'état de release (variantes de readiness sous CC BY 4.0, mentions de licence accordée, claims de commercial-readiness: listes précises dans les checkers). Appliqués à la SCOPE COMPLÈTE (5 SOPs + _INDEX.md + 3 distribution files) UNIQUEMENT tant que le placeholder de licence était présent dans `LICENSE`. Une fois la licence officielle bundlée (5c.3.h), cette liste cesse d'être enforcée.
 3. **Ajouter des tokens de négation française** au détecteur `_has_negation_before` : `aucune`, `aucun`, `pas de`, `pas d'`, `ne pas`, `n'accorde`, `n'autorise`, `n'approuve`, `n'ouvre`, `ni`, `sans`, `jamais`. Permet de couvrir correctement les SOP bodies en français.
 
 ### Vérification
@@ -163,7 +163,7 @@ Le pack reste DRAFT. Détail dans `docs/project_checkpoints/2026-05-09_sop_pack_
 
 ---
 
-## Patch 5c.3.g — Publication strategy + LICENSE source gate definition
+## Patch 5c.3.g: Publication strategy + LICENSE source gate definition
 
 Patch 5c.3.g appliqué : décision de stratégie de publication enregistrée comme document, sans publier, sans finaliser la licence, sans générer de PDF, sans créer de repo externe, sans merger. Comparaison de trois topologies (A standalone repo extraction, B merge dans `main`, C tarball/zip détaché). Recommandation : standalone repo extraction depuis `dist/ai-ops-sop-pack-v0/` après bundling licence + revue humaine finale.
 
@@ -183,7 +183,7 @@ Patch 5c.3.g appliqué : décision de stratégie de publication enregistrée com
 
 ### Prochain gate défini (non ouvert)
 
-`SOP_PACK_5C3H_OFFICIAL_LICENSE_TEXT_BUNDLING_V0` — **EFFECTUÉ (5c.3.h)** : fetch du texte officiel CC BY 4.0 depuis `creativecommons.org/licenses/by/4.0/legalcode.txt` et remplacement verbatim du placeholder de licence dans `LICENSE` (racine) et `dist/ai-ops-sop-pack-v0/LICENSE`. Résultat : les deux fichiers LICENSE contiennent le texte officiel, aucun placeholder ne subsiste dans les fichiers du pack.
+`SOP_PACK_5C3H_OFFICIAL_LICENSE_TEXT_BUNDLING_V0`, **EFFECTUÉ (5c.3.h)** : fetch du texte officiel CC BY 4.0 depuis `creativecommons.org/licenses/by/4.0/legalcode.txt` et remplacement verbatim du placeholder de licence dans `LICENSE` (racine) et `dist/ai-ops-sop-pack-v0/LICENSE`. Résultat : les deux fichiers LICENSE contiennent le texte officiel, aucun placeholder ne subsiste dans les fichiers du pack.
 
 ### Vérification
 
@@ -197,7 +197,7 @@ Détail dans `docs/project_evidence/sop_pack_5c3g_publication_strategy_and_licen
 
 ---
 
-## Patch 5c.3.h — Bundling du texte officiel CC BY 4.0
+## Patch 5c.3.h: Bundling du texte officiel CC BY 4.0
 
 Patch 5c.3.h appliqué : le texte officiel CC BY 4.0 a été récupéré verbatim depuis `creativecommons.org/licenses/by/4.0/legalcode.txt` (18 656 octets, SHA-256 : `9E5F1B3C610B9C2DA5C313BF81D577A7D1ACEC686BDB0384EDEFA6DF0F90CD94`) et écrit sans reformatage ni traduction dans `LICENSE` (racine) et `dist/ai-ops-sop-pack-v0/LICENSE`. Les deux fichiers sont byte-identiques. Aucun placeholder ne subsiste dans les fichiers du pack.
 
@@ -224,9 +224,9 @@ Détail dans `docs/project_evidence/sop_pack_5c3h_official_license_text_bundling
 
 ---
 
-## Patch 5c.3.i — Final human review packet
+## Patch 5c.3.i: Final human review packet
 
-Patch 5c.3.i appliqué : préparation du paquet de revue humaine finale (pas de publication, pas de PDF, pas de modification de la licence, pas de création de repo externe, pas de merge). Manifest de release candidate (paths, tailles, SHA-256 sur les 9 fichiers de `dist/ai-ops-sop-pack-v0/`) et review packet structurée (scope de lecture, checklist H1–H11, notes par fichier, table de décision bloquante, prochain gate par verdict).
+Patch 5c.3.i appliqué : préparation du paquet de revue humaine finale (pas de publication, pas de PDF, pas de modification de la licence, pas de création de repo externe, pas de merge). Manifest de release candidate (paths, tailles, SHA-256 sur les 9 fichiers de `dist/ai-ops-sop-pack-v0/`) et review packet structurée (scope de lecture, checklist H1-H11, notes par fichier, table de décision bloquante, prochain gate par verdict).
 
 ### Tokens de statut
 
@@ -266,9 +266,9 @@ Détail dans `docs/project_evidence/sop_pack_5c3i_final_human_review_packet_v0/f
 
 ---
 
-## Patch 5c.3.j — Standalone repo prep
+## Patch 5c.3.j: Standalone repo prep
 
-Patch 5c.3.j appliqué : préparation du passage vers un repo standalone, **sans** créer le repo, **sans** publier, **sans** générer de PDF, **sans** merger, **sans** modifier la LICENSE/README/SOPs/`content_raw`. Préparation seule : rapport de stratégie, plan de fichiers (mapping `dist/ai-ops-sop-pack-v0/*` → repo standalone), checklist preflight (13 décisions P1–P13).
+Patch 5c.3.j appliqué : préparation du passage vers un repo standalone, **sans** créer le repo, **sans** publier, **sans** générer de PDF, **sans** merger, **sans** modifier la LICENSE/README/SOPs/`content_raw`. Préparation seule : rapport de stratégie, plan de fichiers (mapping `dist/ai-ops-sop-pack-v0/*` → repo standalone), checklist preflight (13 décisions P1-P13).
 
 ### Tokens de statut
 
@@ -289,7 +289,7 @@ Patch 5c.3.j appliqué : préparation du passage vers un repo standalone, **sans
 
 ### Prochain gate défini (non ouvert)
 
-`SOP_PACK_5C3K_STANDALONE_REPO_CREATION_OR_ARCHIVE_EXPORT_V0` — création effective du repo standalone (ou export d'archive selon canal choisi) + seed depuis `dist/ai-ops-sop-pack-v0/` + tag de version + vérification visuelle. Pré-requis : items P1, P3, P4, P9 de la preflight checklist cochés ; HUMAN_REVIEW_PASS confirmé ; tous les checks automatiques toujours PASS.
+`SOP_PACK_5C3K_STANDALONE_REPO_CREATION_OR_ARCHIVE_EXPORT_V0`, création effective du repo standalone (ou export d'archive selon canal choisi) + seed depuis `dist/ai-ops-sop-pack-v0/` + tag de version + vérification visuelle. Pré-requis : items P1, P3, P4, P9 de la preflight checklist cochés ; HUMAN_REVIEW_PASS confirmé ; tous les checks automatiques toujours PASS.
 
 5c.3.j **n'ouvre pas** 5c.3.k. L'ouverture est conditionnée à un mandat explicite du mainteneur après remplissage de la checklist.
 

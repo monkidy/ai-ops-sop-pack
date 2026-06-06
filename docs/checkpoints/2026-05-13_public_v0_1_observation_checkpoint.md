@@ -1,4 +1,4 @@
-# AI Ops SOP Pack — Public V0.1 Observation Checkpoint
+# AI Ops SOP Pack: Public V0.1 Observation Checkpoint
 
 Date: 2026-05-13  
 Repo: monkidy/ai-ops-sop-pack  

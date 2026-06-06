@@ -1,4 +1,4 @@
-# Filled Example — PR Crash Recovery And Handoff
+# Filled Example: PR Crash Recovery And Handoff
 
 This is a fictitious, non-live example showing how to use the SOP pack and templates together.
 
@@ -27,7 +27,7 @@ A local editor crashed during final review of a pull request. The operator needs
 - `templates/pr_final_audit_checklist.md`
 - `templates/agent_handoff_template.md`
 
-## Step 1 — OOM / Crash Recovery
+## Step 1: OOM / Crash Recovery
 
 ### Incident Metadata
 
@@ -92,7 +92,7 @@ Rationale:
 - Worktree is clean.
 - No live/runtime/provider/secrets boundary was crossed.
 
-## Step 2 — PR Final Audit
+## Step 2: PR Final Audit
 
 ### PR Metadata
 
@@ -152,7 +152,7 @@ Final statement:
 
 > Observed evidence supports bounded documentation review readiness for PR #42 at head `abc1234`; this does not by itself grant merge authority or runtime authority.
 
-## Step 3 — Agent / Operator Handoff
+## Step 3: Agent / Operator Handoff
 
 ### Handoff Metadata
 

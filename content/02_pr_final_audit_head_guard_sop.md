@@ -103,7 +103,7 @@ Status: SOP V0 public pack artifact. Current distribution status: published in A
 
 ---
 
-## Annexe — Trace de cycle ACE
+## Annexe: Trace de cycle ACE
 
 Ce document est le résultat consolidé d'un cycle ACE en 4 étapes. La méthode ACE produit un fichier dédié par étape de cycle dans le repo de production, puis consolide en un livrable unique pour diffusion externe.
 

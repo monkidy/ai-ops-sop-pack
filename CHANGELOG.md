@@ -4,7 +4,7 @@ All notable public documentation changes for AI Ops SOP Pack are recorded here.
 
 This changelog tracks documentation-pack changes only. It does not imply runtime capability, production readiness, commercial availability, or permission-to-act.
 
-## v0.1.1 — Documentation visibility and status alignment
+## v0.1.1: Documentation visibility and status alignment
 
 Status: published public GitHub documentation release.
 
@@ -27,7 +27,7 @@ Status: published public GitHub documentation release.
 - No external visibility or announcement opened.
 - No permission-to-act granted.
 
-## v0.1.0 — Public usability polish
+## v0.1.0: Public usability polish
 
 Status: published public GitHub documentation release.
 
@@ -66,7 +66,7 @@ v0.1.0 improves external readability and practical reuse of the documentation pa
 
 The repository remains a public Markdown documentation pack under CC BY 4.0.
 
-## v0.0.0 — Initial public GitHub publication
+## v0.0.0: Initial public GitHub publication
 
 ### Added
 

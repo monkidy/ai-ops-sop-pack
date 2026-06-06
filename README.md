@@ -4,7 +4,7 @@
 
 Part of the ACE / Asso fleet. Visual identity follows the [ACE Visual Charter V1](https://github.com/monkidy/asso-lab/blob/main/docs/brand/ACE_VISUAL_CHARTER_V1.md).
 
-> **Status: V0.1 — public GitHub documentation release; GitHub Release v0.1.1 published**
+> **Status: V0.1: public GitHub documentation release; GitHub Release v0.1.1 published**
 >
 > Human review has passed. This repository is public as the canonical GitHub publication of AI Ops SOP Pack.
 >
@@ -46,11 +46,11 @@ The pack lives in `content/`. See `content/_INDEX.md` for the consolidated audit
 
 | File | Purpose |
 |------|---------|
-| `content/01_oom_recovery_sop.md` | OOM Recovery SOP v0 — human-led cold recovery after OOM during a PR/merge gate |
-| `content/02_pr_final_audit_head_guard_sop.md` | PR Final Audit + Head Guard SOP v0 — bounded merge review procedure with head-guard discipline |
-| `content/03_cold_start_operator_runbook.md` | Cold-Start Operator Runbook v0 — workstation product index + entry points |
-| `content/04_agent_handoff_format.md` | Agent Handoff Format v0 — minimum handoff structure + allowed decision values |
-| `content/05_operator_guide.md` | Operator Guide — Avatar Text-Only Stack v0 — ASSO-derived local text-only case study, not a generic drop-in SOP |
+| `content/01_oom_recovery_sop.md` | OOM Recovery SOP v0: human-led cold recovery after OOM during a PR/merge gate |
+| `content/02_pr_final_audit_head_guard_sop.md` | PR Final Audit + Head Guard SOP v0: bounded merge review procedure with head-guard discipline |
+| `content/03_cold_start_operator_runbook.md` | Cold-Start Operator Runbook v0: workstation product index + entry points |
+| `content/04_agent_handoff_format.md` | Agent Handoff Format v0: minimum handoff structure + allowed decision values |
+| `content/05_operator_guide.md` | Operator Guide: Avatar Text-Only Stack v0: ASSO-derived local text-only case study, not a generic drop-in SOP |
 
 ## Templates
 
@@ -97,11 +97,11 @@ The "Trace de cycle ACE" appendix at the end of files 01 and 02 documents the pr
 - **Public visibility** : PUBLIC
 - **PDF** : NOT_GENERATED
 - **Latest tag** : v0.1.1
-- **Latest GitHub Release** : PUBLISHED — v0.1.1
+- **Latest GitHub Release** : PUBLISHED: v0.1.1
 - **Previous tag** : v0.1.0
-- **Previous GitHub Release** : PUBLISHED — v0.1.0
+- **Previous GitHub Release** : PUBLISHED: v0.1.0
 - **Initial tag** : v0.0.0
-- **Initial GitHub Release** : PUBLISHED — v0.0.0
+- **Initial GitHub Release** : PUBLISHED: v0.0.0
 - **Sale** : NOT_OPENED
 - **Latest mission** : v0.1.1 documentation visibility and status alignment release published; no PDF, no sale channel, no runtime, no provider integration, no external announcement.
 - **Review markers** : 0 remaining (`<<<REVIEW_HICHEM_5c3b>>>` count is zero across `content/*.md`; verified by the integrity checker `scripts/sop_pack_content_integrity_check.py --max-review 0` on the source repository)
@@ -128,15 +128,15 @@ The pack is published in this public GitHub repository as its canonical source. 
 
 ## Next steps
 
-- ~~Human review pass.~~ **DONE** — human review status: PASS.
-- ~~Public GitHub repository.~~ **DONE** — this repository, public.
-- ~~Tag `v0.0.0`.~~ **DONE** — pushed to this repository.
-- ~~GitHub Release v0.0.0.~~ **DONE** — published.
-- ~~Usability polish.~~ **DONE** — START_HERE, templates, filled example, case-study guidance, changelog, and v0.1.0 release notes.
-- ~~Tag `v0.1.0`.~~ **DONE** — pushed to this repository.
-- ~~GitHub Release v0.1.0.~~ **DONE** — published.
-- ~~GitHub Release v0.1.1.~~ **DONE** — documentation visibility and status alignment release published.
-- **OPTIONAL / NOT GENERATED** — PDF compilation. May be added later as a release asset or in a dedicated follow-up; intentionally not produced in this pass.
-- **OBSERVATION ONLY** — external visibility is not automatic. Any announcement, distribution, or commercial use remains a separate explicit pass.
+- ~~Human review pass.~~ **DONE**: human review status: PASS.
+- ~~Public GitHub repository.~~ **DONE**: this repository, public.
+- ~~Tag `v0.0.0`.~~ **DONE**: pushed to this repository.
+- ~~GitHub Release v0.0.0.~~ **DONE**: published.
+- ~~Usability polish.~~ **DONE**: START_HERE, templates, filled example, case-study guidance, changelog, and v0.1.0 release notes.
+- ~~Tag `v0.1.0`.~~ **DONE**: pushed to this repository.
+- ~~GitHub Release v0.1.0.~~ **DONE**: published.
+- ~~GitHub Release v0.1.1.~~ **DONE**: documentation visibility and status alignment release published.
+- **OPTIONAL / NOT GENERATED**: PDF compilation. May be added later as a release asset or in a dedicated follow-up; intentionally not produced in this pass.
+- **OBSERVATION ONLY**: external visibility is not automatic. Any announcement, distribution, or commercial use remains a separate explicit pass.
 
 This V0.1 publication is intentionally sober: a public canonical Markdown documentation repository under CC BY 4.0, nothing more. Any PDF distribution, sale channel, or broader announcement will be a separate, explicit pass.

@@ -1,4 +1,4 @@
-# START_HERE — AI Ops SOP Pack v0.1
+# START_HERE: AI Ops SOP Pack v0.1
 
 This file is the external reading guide for AI Ops SOP Pack v0.1.
 
@@ -61,17 +61,17 @@ The reader should already understand Git, pull requests, local validation, revie
 
 Read in this order:
 
-1. `README.md` — repository status, license, scope, and non-goals.
-2. `START_HERE.md` — this guide.
-3. `content/04_agent_handoff_format.md` — most portable file; read first if you want a reusable handoff structure.
-4. `content/02_pr_final_audit_head_guard_sop.md` — PR merge discipline and head-guard procedure.
-5. `content/01_oom_recovery_sop.md` — human-led cold recovery after crash during a PR / merge gate.
-6. `templates/` — blank copyable templates for handoff, PR audit, OOM recovery, and cold start.
-7. `examples/pr_crash_recovery_filled_example.md` — fictitious non-live example combining recovery, audit, and handoff.
-8. `content/03_cold_start_operator_runbook.md` — local workstation cold-start example; ASSO-derived and environment-specific.
-9. `content/05_operator_guide.md` — local text-only avatar operator case study; strongly ASSO-derived and not generic.
-10. `source_pr_references.md` — provenance mapping to source PRs.
-11. `content/_INDEX.md` — consolidation audit index and historical release-work notes.
+1. `README.md`: repository status, license, scope, and non-goals.
+2. `START_HERE.md`: this guide.
+3. `content/04_agent_handoff_format.md`: most portable file; read first if you want a reusable handoff structure.
+4. `content/02_pr_final_audit_head_guard_sop.md`: PR merge discipline and head-guard procedure.
+5. `content/01_oom_recovery_sop.md`: human-led cold recovery after crash during a PR / merge gate.
+6. `templates/`: blank copyable templates for handoff, PR audit, OOM recovery, and cold start.
+7. `examples/pr_crash_recovery_filled_example.md`: fictitious non-live example combining recovery, audit, and handoff.
+8. `content/03_cold_start_operator_runbook.md`: local workstation cold-start example; ASSO-derived and environment-specific.
+9. `content/05_operator_guide.md`: local text-only avatar operator case study; strongly ASSO-derived and not generic.
+10. `source_pr_references.md`: provenance mapping to source PRs.
+11. `content/_INDEX.md`: consolidation audit index and historical release-work notes.
 
 ## Generic vs ASSO-derived files
 

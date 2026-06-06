@@ -1,4 +1,4 @@
-# Source PR references — AI Ops SOP Pack
+# Source PR references: AI Ops SOP Pack
 
 This document maps each consolidated file in `content/` to the source pull requests on `monkidy/asso-execution-bridge` that produced its raw material, and records the consolidation type applied.
 
@@ -10,11 +10,11 @@ It serves as the traceability surface for the pack. It is not itself part of the
 
 ### `content/01_oom_recovery_sop.md`
 
-- **Consolidation type** : 3B (cycle SOP — closeout body + Trace de cycle ACE appendix)
+- **Consolidation type** : 3B (cycle SOP: closeout body + Trace de cycle ACE appendix)
 - **Source PRs** :
-  - **PR #81** — Capital Engine: add OOM recovery SOP v0 (merged 2026-05-01)
-  - **PR #82** — Capital Engine: review OOM recovery SOP v0 (merged 2026-05-01)
-  - **PR #83** — Capital Engine: closeout OOM recovery SOP v0 (merged 2026-05-01)
+  - **PR #81**: Capital Engine: add OOM recovery SOP v0 (merged 2026-05-01)
+  - **PR #82**: Capital Engine: review OOM recovery SOP v0 (merged 2026-05-01)
+  - **PR #83**: Capital Engine: closeout OOM recovery SOP v0 (merged 2026-05-01)
 - **Source files on `main`** :
   - `docs/capital_engine/documentation_operatoire_oom_recovery_sop_v0.md` (PR #81)
   - `docs/capital_engine/documentation_operatoire_oom_recovery_sop_v0_review.md` (PR #82)
@@ -25,10 +25,10 @@ It serves as the traceability surface for the pack. It is not itself part of the
 
 - **Consolidation type** : 3B + arbitration (cycle SOP with internal model arbitration)
 - **Source PRs** :
-  - **PR #87** — Capital Engine: add PR final audit head guard SOP v0 (merged 2026-05-01)
-  - **PR #88** — Capital Engine: review PR final audit head guard SOP v0 (merged 2026-05-01)
-  - **PR #89** — Capital Engine: closeout PR final audit head guard SOP v0 (merged 2026-05-01)
-  - **PR #90** — Capital Engine: arbitrate PR final audit head guard SOP v0 internal model (merged 2026-05-01)
+  - **PR #87**: Capital Engine: add PR final audit head guard SOP v0 (merged 2026-05-01)
+  - **PR #88**: Capital Engine: review PR final audit head guard SOP v0 (merged 2026-05-01)
+  - **PR #89**: Capital Engine: closeout PR final audit head guard SOP v0 (merged 2026-05-01)
+  - **PR #90**: Capital Engine: arbitrate PR final audit head guard SOP v0 internal model (merged 2026-05-01)
 - **Source files on `main`** :
   - `docs/capital_engine/documentation_operatoire_pr_final_audit_and_head_guard_sop_v0.md` (PR #87)
   - `docs/capital_engine/documentation_operatoire_pr_final_audit_and_head_guard_sop_v0_review.md` (PR #88)
@@ -40,26 +40,26 @@ It serves as the traceability surface for the pack. It is not itself part of the
 
 - **Consolidation type** : single source merge (#143), with workstation README absorbed as contextual preamble
 - **Source PR** :
-  - **PR #143** — docs(workstation): add cold-start operator runbook index v0 (merged 2026-05-07)
+  - **PR #143**: docs(workstation): add cold-start operator runbook index v0 (merged 2026-05-07)
 - **Source files on `main`** :
-  - `docs/product/asso_workstation/asso_workstation_cold_start_operator_runbook_v0.md` (PR #143) — body
-  - `docs/product/asso_workstation/README.md` (PR #143) — absorbed as `## Contexte Workstation` preamble
+  - `docs/product/asso_workstation/asso_workstation_cold_start_operator_runbook_v0.md` (PR #143): body
+  - `docs/product/asso_workstation/README.md` (PR #143): absorbed as `## Contexte Workstation` preamble
 - **Notes** : single source PR; the runbook body is the canonical content; the workstation README provided the product-index preamble.
 
 ### `content/04_agent_handoff_format.md`
 
 - **Consolidation type** : single source (no consolidation)
 - **Source PR** :
-  - **PR #27** — AGENT_HANDOFF_REMOTE_COMMIT_READY_BOUNDARY_REPAIR (merged 2026-04-29)
+  - **PR #27**: AGENT_HANDOFF_REMOTE_COMMIT_READY_BOUNDARY_REPAIR (merged 2026-04-29)
 - **Source file on `main`** :
   - `docs/asso_runtime/asso_agent_handoff_contract.md` (PR #27)
 - **Notes** : the H1 was aligned to the pack frontmatter title (`Agent Handoff Format v0`) in mission 5c.3.c; the original source file uses the noun « Contract » which describes the same artifact.
 
 ### `content/05_operator_guide.md`
 
-- **Consolidation type** : 4A (3-file fusion — Avatar Text-Only Stack)
+- **Consolidation type** : 4A (3-file fusion: Avatar Text-Only Stack)
 - **Source PR** :
-  - **PR #31** — AVATAR_TEXT_ONLY_V0_OPERATOR_GUIDE_AND_SINGLE_RUNNER (merged 2026-04-29)
+  - **PR #31**: AVATAR_TEXT_ONLY_V0_OPERATOR_GUIDE_AND_SINGLE_RUNNER (merged 2026-04-29)
 - **Source files on `main`** :
   - `docs/asso_runtime/avatar/asso_avatar_text_only_v0_finish.md` (PR #31)
   - `docs/asso_runtime/avatar/asso_avatar_text_only_v0_operator_guide.md` (PR #31)
@@ -82,7 +82,7 @@ The `content_raw/` directory present on this branch is **internal traceability m
 - `content/03_cold_start_operator_runbook.md`
 - `content/04_agent_handoff_format.md`
 - `content/05_operator_guide.md`
-- `content/_INDEX.md` *(audit index — distribution-or-not to be confirmed by maintainer)*
+- `content/_INDEX.md` *(audit index: distribution-or-not to be confirmed by maintainer)*
 
 The branch's other artifacts (`content_raw/`, `EXTRACT_SOP_PACK_SCOPE.md`, `docs/project_evidence/`, `docs/project_checkpoints/`, `scripts/sop_pack_content_integrity_check.py`) are repository-internal. They do not travel with a published distribution.
 

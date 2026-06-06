@@ -1,5 +1,5 @@
 ---
-title: Operator Guide — Avatar Text-Only Stack v0
+title: Operator Guide, Avatar Text-Only Stack v0
 version: v0
 license: CC BY 4.0
 ---
@@ -13,7 +13,7 @@ LICENSE: CC BY 4.0
 EXTERNAL_ALIGNMENT_PASS: 5c.3.b (1B + 2A + 3A + 4B applied)
 SOURCE_FILES: 05a_avatar_finish__src.md + 05b_avatar_operator_guide__src.md + 05c_avatar_usage__src.md
 -->
-# Operator Guide — Avatar Text-Only Stack v0
+# Operator Guide: Avatar Text-Only Stack v0
 
 > Case study only.
 > This file is ASSO-derived and environment-specific.
