@@ -4,6 +4,33 @@ All notable public documentation changes for AI Ops SOP Pack are recorded here.
 
 This changelog tracks documentation-pack changes only. It does not imply runtime capability, production readiness, commercial availability, or permission-to-act.
 
+## v0.1.2: Reader-first model pass
+
+Status: public documentation readability and model-repo alignment pass.
+
+### Added
+
+- `VISUAL_OVERVIEW.md` with diagrams, one-screen tables, evidence-vs-claim framing, and reader map.
+- `STATUS.md` with explicit publication facts, usability scope, adaptation requirements, and non-claims.
+- `CONTRIBUTING.md` with contribution principles for conservative, evidence-first SOP documentation.
+
+### Changed
+
+- README now links to `START_HERE.md`, `VISUAL_OVERVIEW.md`, and `STATUS.md` near the top.
+- README now adds a simple framing question and answer for first-time readers.
+- README now includes a contribution pointer.
+
+### Boundaries maintained
+
+- No runtime added.
+- No provider integration added.
+- No live execution path added.
+- No trading, order-routing, leverage, wallet, or portfolio authority added.
+- No product or commercial offer opened.
+- No PDF generated.
+- No external visibility or announcement opened.
+- No permission-to-act granted.
+
 ## v0.1.1: Documentation visibility and status alignment
 
 Status: published public GitHub documentation release.
