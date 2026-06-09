@@ -10,11 +10,25 @@ Part of the ACE / Asso fleet. Visual identity follows the [ACE Visual Charter V1
 >
 > GitHub Release v0.1.1 is published as a documentation visibility and status alignment release. No PDF, sale channel, runtime, provider integration, or external announcement has been opened.
 
+New here? Start with [`START_HERE.md`](./START_HERE.md).
+
+Prefer diagrams and tables? Open [`VISUAL_OVERVIEW.md`](./VISUAL_OVERVIEW.md).
+
+Current status details live in [`STATUS.md`](./STATUS.md).
+
 ## What this pack is
 
 A consolidated, externally-readable bundle of Standard Operating Procedures (SOPs) for teams documenting and reviewing AI-assisted engineering work: PR audit discipline, cold recovery procedures, agent handoff format, and operator guides.
 
 The pack is a **documentation pack**, not a runtime, not a tool, not a service.
+
+## The simple question
+
+How can a team review AI-assisted engineering work without confusing evidence, review, approval, and permission-to-act?
+
+This pack gives a practical answer:
+
+> Capture evidence, structure the handoff, run the checklist, keep human approval explicit.
 
 ## Use this when
 
@@ -125,6 +139,10 @@ The official CC BY 4.0 legal text is bundled in `LICENSE`. The attribution for r
 > "AI Ops SOP Pack" by Hichem Benali, licensed under CC BY 4.0. Source: https://github.com/monkidy/ai-ops-sop-pack.
 
 The pack is published in this public GitHub repository as its canonical source. GitHub Releases v0.0.0, v0.1.0, and v0.1.1 have been published. No PDF has been compiled, and no commercial channel has been opened. External announcement is not automatic and remains a separate explicit decision.
+
+## Contributing
+
+See [`CONTRIBUTING.md`](./CONTRIBUTING.md). Contributions should keep the pack practical, conservative, and evidence-first.
 
 ## Next steps
 
