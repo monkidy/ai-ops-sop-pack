@@ -2,7 +2,7 @@
 
 "AI Ops SOP Pack" by Hichem Benali, licensed under [CC BY 4.0](./LICENSE). Source: https://github.com/monkidy/ai-ops-sop-pack.
 
-Part of the ACE / Asso fleet. Visual identity follows the [ACE Visual Charter V1](https://github.com/monkidy/asso-lab/blob/main/docs/brand/ACE_VISUAL_CHARTER_V1.md).
+A standalone public documentation pack from Hichem's wider systems work. Its bounded handoff, review and receipt discipline is related to the public ACE receipt/admissibility work, but ACE is not the parent identity of this pack.
 
 > **Status: V0.1: public GitHub documentation release; GitHub Release v0.1.1 published**
 >
@@ -101,7 +101,7 @@ Each file is self-contained Markdown. Read `START_HERE.md` first, then read the 
 
 For operational use, read the relevant SOP first, then copy the corresponding blank template from `templates/` and fill it with observed evidence from your own environment. Use `examples/` only to understand how the pieces can fit together; do not treat examples as authority.
 
-The "Trace de cycle ACE" appendix at the end of files 01 and 02 documents the production method (add → review → closeout → arbitration). It is informational and helps readers see how the SOP was hardened, not a procedure to imitate verbatim.
+The "Trace de cycle ACE" appendix at the end of files 01 and 02 documents the historical production method (add → review → closeout → arbitration). It is informational and helps readers see how the SOP was hardened, not a statement that this pack belongs to a parent product called ACE.
 
 ## Status
 
@@ -139,6 +139,12 @@ The official CC BY 4.0 legal text is bundled in `LICENSE`. The attribution for r
 > "AI Ops SOP Pack" by Hichem Benali, licensed under CC BY 4.0. Source: https://github.com/monkidy/ai-ops-sop-pack.
 
 The pack is published in this public GitHub repository as its canonical source. GitHub Releases v0.0.0, v0.1.0, and v0.1.1 have been published. No PDF has been compiled, and no commercial channel has been opened. External announcement is not automatic and remains a separate explicit decision.
+
+## Relationship to the wider work
+
+This pack can be read and used on its own.
+
+It sits beside, not underneath, the other public objects. Asso is the longitudinal cognitive continuity system, SYSTASYS is the wider architecture, and Asso Capital Engine is the operating economic layer. The deeper public map is at https://hichembenali.com.
 
 ## Contributing
 
