@@ -3,12 +3,12 @@
 ## Current status
 
 ```text
-PUBLIC_MARKDOWN_SOP_PACK_V0_1
+PUBLISHED_REFERENCE_V0_1
 ```
 
-AI Ops SOP Pack is a public Markdown documentation pack.
+AI Ops SOP Pack is a reviewed public Markdown documentation release under CC BY 4.0.
 
-It is published as a canonical GitHub repository under CC BY 4.0.
+It is a reference snapshot, not a current SYSTASYS operations mirror. Historical ACE names, local paths and source references are preserved as publication provenance and must not be read as current architecture or current terrain.
 
 ## What is public here
 
