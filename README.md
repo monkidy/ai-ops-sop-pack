@@ -1,5 +1,9 @@
 # AI Ops SOP Pack
 
+> **Published reference snapshot, V0.1.**
+>
+> This repository preserves a reviewed public documentation release. It is not a mirror of current SYSTASYS operations, current runtime state, infrastructure or public identity. Historical ACE names, local paths and source references are kept where they are part of the provenance of the published pack.
+
 "AI Ops SOP Pack" by Hichem Benali, licensed under [CC BY 4.0](./LICENSE). Source: https://github.com/monkidy/ai-ops-sop-pack.
 
 A standalone public documentation pack from Hichem's wider systems work. Its bounded handoff, review and receipt discipline is related to the public ACE receipt/admissibility work, but ACE is not the parent identity of this pack.
